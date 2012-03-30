@@ -23,7 +23,6 @@ struct tweetData
 
 
 
-static char errorBuffer[CURL_ERROR_SIZE]; 
 
 
 class ATwit

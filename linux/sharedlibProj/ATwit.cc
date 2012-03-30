@@ -1,6 +1,9 @@
 #include "ATwit.h"
 
 
+
+static char errorBuffer[CURL_ERROR_SIZE]; 
+
 ATwit::ATwit(void)
 {
 
