@@ -6,12 +6,10 @@ compileApp = $(cc) -Wall -I./sharedlibProj/ -L/lib  tweetPeak/main.cpp -lATwit -
 all:linkedlib tweetpeak 
 
 linkedlib: 
-	cd sharedlibProj; 
 	$(compileFlag);
 	$(compileLibFlag);
 	mv libATwit.so.1.0 /lib;
 	ln -sf /lib/libATwit.so.1.0 /lib/libATwit.so.1; 
-	cd .. 
 tweetpeak:
 	$(compileApp)
 

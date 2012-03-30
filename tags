@@ -3958,7 +3958,7 @@ entities	./windows/DLLApplication/RestApi/tinyxml2.cpp	/^static const Entity ent
 entityFlag	./linux/sharedlibProj/tinyxml2.h	/^	bool entityFlag[ENTITY_RANGE];$/;"	m	class:tinyxml2::XMLPrinter	access:private
 entityFlag	./linux/tweetPeak/tinyxml2.h	/^	bool entityFlag[ENTITY_RANGE];$/;"	m	class:tinyxml2::XMLPrinter	access:private
 entityFlag	./windows/DLLApplication/RestApi/tinyxml2.h	/^	bool entityFlag[ENTITY_RANGE];$/;"	m	class:tinyxml2::XMLPrinter	access:private
-errorBuffer	./linux/sharedlibProj/ATwit.h	/^static char errorBuffer[CURL_ERROR_SIZE]; $/;"	v
+errorBuffer	./linux/sharedlibProj/ATwit.cc	/^static char errorBuffer[CURL_ERROR_SIZE]; $/;"	v	file:
 errorBuffer	./windows/DLLApplication/RestApi/ATwit.h	/^static char errorBuffer[CURL_ERROR_SIZE]; $/;"	v
 errorID	./linux/sharedlibProj/tinyxml2.h	/^	int errorID;$/;"	m	class:tinyxml2::XMLDocument	access:private
 errorID	./linux/tweetPeak/tinyxml2.h	/^	int errorID;$/;"	m	class:tinyxml2::XMLDocument	access:private

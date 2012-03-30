@@ -1156,7 +1156,7 @@ entities	./sharedlibProj/tinyxml2.cc	/^static const Entity entities[NUM_ENTITIES
 entities	./tweetPeak/tinyxml2.cc	/^static const Entity entities[NUM_ENTITIES] = $/;"	v	file:
 entityFlag	./sharedlibProj/tinyxml2.h	/^	bool entityFlag[ENTITY_RANGE];$/;"	m	class:tinyxml2::XMLPrinter	access:private
 entityFlag	./tweetPeak/tinyxml2.h	/^	bool entityFlag[ENTITY_RANGE];$/;"	m	class:tinyxml2::XMLPrinter	access:private
-errorBuffer	./sharedlibProj/ATwit.h	/^static char errorBuffer[CURL_ERROR_SIZE]; $/;"	v
+errorBuffer	./sharedlibProj/ATwit.cc	/^static char errorBuffer[CURL_ERROR_SIZE]; $/;"	v	file:
 errorID	./sharedlibProj/tinyxml2.h	/^	int errorID;$/;"	m	class:tinyxml2::XMLDocument	access:private
 errorID	./tweetPeak/tinyxml2.h	/^	int errorID;$/;"	m	class:tinyxml2::XMLDocument	access:private
 errorStr1	./sharedlibProj/tinyxml2.h	/^	const char* errorStr1;$/;"	m	class:tinyxml2::XMLDocument	access:private
