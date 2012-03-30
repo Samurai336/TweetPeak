@@ -1,0 +1,1049 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ATTRIBUTE_NAME	./tinyxml2.h	/^		ATTRIBUTE_NAME		= 0,$/;"	e	enum:tinyxml2::StrPair::__anon1
+ATTRIBUTE_VALUE	./tinyxml2.h	/^		ATTRIBUTE_VALUE		= NEEDS_ENTITY_PROCESSING | NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
+ATTRIBUTE_VALUE_LEAVE_ENTITIES	./tinyxml2.h	/^		ATTRIBUTE_VALUE_LEAVE_ENTITIES		= NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
+ATwit	./ATwit.cc	/^ATwit::ATwit(void)$/;"	f	class:ATwit	signature:(void)
+ATwit	./ATwit.h	/^		ATwit(void);$/;"	p	class:ATwit	access:public	signature:(void)
+ATwit	./ATwit.h	/^class ATwit$/;"	c
+ATwit::ATwit	./ATwit.cc	/^ATwit::ATwit(void)$/;"	f	class:ATwit	signature:(void)
+ATwit::ATwit	./ATwit.h	/^		ATwit(void);$/;"	p	class:ATwit	access:public	signature:(void)
+ATwit::PrintStatuses	./ATwit.cc	/^void ATwit::PrintStatuses()$/;"	f	class:ATwit	signature:()
+ATwit::PrintStatuses	./ATwit.h	/^		void PrintStatuses();$/;"	p	class:ATwit	access:public	signature:()
+ATwit::curl	./ATwit.h	/^		CURL *curl;$/;"	m	class:ATwit	access:private
+ATwit::getData	./ATwit.cc	/^void  ATwit::getData(string URL)$/;"	f	class:ATwit	signature:(string URL)
+ATwit::getData	./ATwit.h	/^		void getData(string URL);$/;"	p	class:ATwit	access:public	signature:(string URL)
+ATwit::parseData	./ATwit.cc	/^void ATwit::parseData()$/;"	f	class:ATwit	signature:()
+ATwit::parseData	./ATwit.h	/^		void parseData();$/;"	p	class:ATwit	access:public	signature:()
+ATwit::result	./ATwit.h	/^		CURLcode  result; $/;"	m	class:ATwit	access:private
+ATwit::theXML	./ATwit.h	/^		string theXML; $/;"	m	class:ATwit	access:private
+ATwit::tweetsRetrived	./ATwit.h	/^		vector <tweetData> tweetsRetrived; $/;"	m	class:ATwit	access:private
+ATwit::userData	./ATwit.h	/^		tinyxml2::XMLDocument userData;$/;"	m	class:ATwit	access:private
+ATwit::writer	./ATwit.cc	/^int ATwit::writer(char *data, size_t size, size_t nmemb,std::string *buffer)  $/;"	f	class:ATwit	signature:(char *data, size_t size, size_t nmemb,std::string *buffer)
+ATwit::writer	./ATwit.h	/^		static int writer(char *data, size_t size, size_t nmemb,std::string *buffer);   $/;"	p	class:ATwit	access:public	signature:(char *data, size_t size, size_t nmemb,std::string *buffer)
+Accept	./tinyxml2.cc	/^bool XMLComment::Accept( XMLVisitor* visitor ) const$/;"	f	class:XMLComment	signature:( XMLVisitor* visitor ) const
+Accept	./tinyxml2.cc	/^bool XMLDeclaration::Accept( XMLVisitor* visitor ) const$/;"	f	class:XMLDeclaration	signature:( XMLVisitor* visitor ) const
+Accept	./tinyxml2.cc	/^bool XMLDocument::Accept( XMLVisitor* visitor ) const$/;"	f	class:XMLDocument	signature:( XMLVisitor* visitor ) const
+Accept	./tinyxml2.cc	/^bool XMLElement::Accept( XMLVisitor* visitor ) const$/;"	f	class:XMLElement	signature:( XMLVisitor* visitor ) const
+Accept	./tinyxml2.cc	/^bool XMLText::Accept( XMLVisitor* visitor ) const$/;"	f	class:XMLText	signature:( XMLVisitor* visitor ) const
+Accept	./tinyxml2.cc	/^bool XMLUnknown::Accept( XMLVisitor* visitor ) const$/;"	f	class:XMLUnknown	signature:( XMLVisitor* visitor ) const
+Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const = 0;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLVisitor* visitor ) const
+Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLComment	access:public	signature:( XMLVisitor* visitor ) const
+Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLDeclaration	access:public	signature:( XMLVisitor* visitor ) const
+Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( XMLVisitor* visitor ) const
+Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( XMLVisitor* visitor ) const
+Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLText	access:public	signature:( XMLVisitor* visitor ) const
+Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLUnknown	access:public	signature:( XMLVisitor* visitor ) const
+Alloc	./tinyxml2.h	/^	virtual void* Alloc() = 0;$/;"	p	class:tinyxml2::MemPool	access:public	signature:()
+Alloc	./tinyxml2.h	/^	virtual void* Alloc() {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:()
+Attribute	./tinyxml2.cc	/^const char* XMLElement::Attribute( const char* name, const char* value ) const$/;"	f	class:XMLElement	signature:( const char* name, const char* value ) const
+Attribute	./tinyxml2.h	/^	const char* Attribute( const char* name, const char* value=0 ) const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( const char* name, const char* value=0 ) const
+BUF_SIZE	./tinyxml2.h	/^		BUF_SIZE = 200$/;"	e	enum:tinyxml2::XMLPrinter::__anon7
+BUF_SIZE	./tinyxml2.h	/^	enum { BUF_SIZE = 200 };$/;"	e	enum:tinyxml2::XMLAttribute::__anon5
+Block	./tinyxml2.h	/^	struct Block {$/;"	s	class:tinyxml2::MemPoolT	access:private
+BoolAttribute	./tinyxml2.h	/^	bool	 BoolAttribute( const char* name ) const	{ bool b=false; QueryBoolAttribute( name, &b );		return b; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+BoolValue	./tinyxml2.h	/^	bool	 BoolValue() const				{ bool b=false; QueryBoolValue( &b );		return b; }$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+CARRIAGE_RETURN	./tinyxml2.cc	/^static const char CARRIAGE_RETURN		= (char)0x0d;			\/\/ CR gets filtered out$/;"	v	file:
+CData	./tinyxml2.h	/^	bool CData() const						{ return isCData; }$/;"	f	class:tinyxml2::XMLText	access:public	signature:() const
+CLOSED	./tinyxml2.h	/^		CLOSED,		\/\/ <foo\/>$/;"	e	enum:tinyxml2::XMLElement::__anon6
+CLOSING	./tinyxml2.h	/^		CLOSING		\/\/ <\/foo>$/;"	e	enum:tinyxml2::XMLElement::__anon6
+COMMENT	./tinyxml2.h	/^		COMMENT				= NEEDS_NEWLINE_NORMALIZATION$/;"	e	enum:tinyxml2::StrPair::__anon1
+COUNT	./tinyxml2.h	/^	enum { COUNT = 1024\/SIZE };$/;"	e	enum:tinyxml2::MemPoolT::__anon3
+CR	./tinyxml2.cc	/^static const char CR = CARRIAGE_RETURN;$/;"	v	file:
+CStr	./tinyxml2.h	/^	const char* CStr() const { return buffer.Mem(); }$/;"	f	class:tinyxml2::XMLPrinter	access:public	signature:() const
+Capacity	./tinyxml2.h	/^	int Capacity() const				{ return allocated; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:() const
+Chunk	./tinyxml2.h	/^	union Chunk {$/;"	u	class:tinyxml2::MemPoolT	access:private
+CloseElement	./tinyxml2.cc	/^void XMLPrinter::CloseElement()$/;"	f	class:XMLPrinter	signature:()
+CloseElement	./tinyxml2.h	/^	void CloseElement();$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:()
+ClosingType	./tinyxml2.h	/^	int ClosingType() const { return closingType; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:() const
+ConvertUTF32ToUTF8	./tinyxml2.cc	/^void XMLUtil::ConvertUTF32ToUTF8( unsigned long input, char* output, int* length )$/;"	f	class:XMLUtil	signature:( unsigned long input, char* output, int* length )
+ConvertUTF32ToUTF8	./tinyxml2.h	/^	static void ConvertUTF32ToUTF8( unsigned long input, char* output, int* length );$/;"	p	class:tinyxml2::XMLUtil	access:public	signature:( unsigned long input, char* output, int* length )
+CurrentAllocs	./tinyxml2.h	/^	int CurrentAllocs() const		{ return currentAllocs; }$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:() const
+DEBUG	./tinyxml2.h	52;"	d
+DELETE_ATTRIBUTE	./tinyxml2.cc	65;"	d	file:
+DELETE_NODE	./tinyxml2.cc	58;"	d	file:
+DOUBLE_QUOTE	./tinyxml2.cc	/^static const char DOUBLE_QUOTE			= '\\"';$/;"	v	file:
+DeleteAttribute	./tinyxml2.cc	/^void XMLElement::DeleteAttribute( const char* name )$/;"	f	class:XMLElement	signature:( const char* name )
+DeleteAttribute	./tinyxml2.h	/^	void DeleteAttribute( const char* name );$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( const char* name )
+DeleteChild	./tinyxml2.cc	/^void XMLNode::DeleteChild( XMLNode* node )$/;"	f	class:XMLNode	signature:( XMLNode* node )
+DeleteChild	./tinyxml2.h	/^	void DeleteChild( XMLNode* node );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLNode* node )
+DeleteChildren	./tinyxml2.cc	/^void XMLNode::DeleteChildren()$/;"	f	class:XMLNode	signature:()
+DeleteChildren	./tinyxml2.h	/^	void DeleteChildren();$/;"	p	class:tinyxml2::XMLNode	access:public	signature:()
+DeleteNode	./tinyxml2.h	/^	void DeleteNode( XMLNode* node )	{ node->parent->DeleteChild( node ); }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:( XMLNode* node )
+DoubleAttribute	./tinyxml2.h	/^	double 	 DoubleAttribute( const char* name ) const	{ double d=0;	QueryDoubleAttribute( name, &d );		return d; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+DoubleValue	./tinyxml2.h	/^	double 	 DoubleValue() const			{ double d=0;	QueryDoubleValue( &d );		return d; }$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+DynArray	./tinyxml2.h	/^	DynArray< T, INIT >() $/;"	f	class:tinyxml2::DynArray	access:public	signature:()
+DynArray	./tinyxml2.h	/^class DynArray$/;"	c	namespace:tinyxml2
+ENTITY_RANGE	./tinyxml2.h	/^		ENTITY_RANGE = 64,$/;"	e	enum:tinyxml2::XMLPrinter::__anon7
+Empty	./tinyxml2.h	/^	bool Empty() const					{ return size == 0; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:() const
+Empty	./tinyxml2.h	/^	bool Empty() const { return start == end; }$/;"	f	class:tinyxml2::StrPair	access:public	signature:() const
+EnsureCapacity	./tinyxml2.h	/^	void EnsureCapacity( int cap ) {$/;"	f	class:tinyxml2::DynArray	access:private	signature:( int cap )
+Entity	./tinyxml2.cc	/^struct Entity {$/;"	s	file:
+Entity::length	./tinyxml2.cc	/^	int length;$/;"	m	struct:Entity	file:	access:public
+Entity::pattern	./tinyxml2.cc	/^	const char* pattern;$/;"	m	struct:Entity	file:	access:public
+Entity::value	./tinyxml2.cc	/^	char value;$/;"	m	struct:Entity	file:	access:public
+Error	./tinyxml2.h	/^	bool Error() const { return errorID != XML_NO_ERROR; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+ErrorID	./tinyxml2.h	/^	int  ErrorID() const { return errorID; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+FindAttribute	./tinyxml2.cc	/^XMLAttribute* XMLElement::FindAttribute( const char* name )$/;"	f	class:XMLElement	signature:( const char* name )
+FindAttribute	./tinyxml2.cc	/^const XMLAttribute* XMLElement::FindAttribute( const char* name ) const$/;"	f	class:XMLElement	signature:( const char* name ) const
+FindAttribute	./tinyxml2.h	/^	XMLAttribute* FindAttribute( const char* name );$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( const char* name )
+FindAttribute	./tinyxml2.h	/^	const XMLAttribute* FindAttribute( const char* name ) const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+FindOrCreateAttribute	./tinyxml2.cc	/^XMLAttribute* XMLElement::FindOrCreateAttribute( const char* name )$/;"	f	class:XMLElement	signature:( const char* name )
+FindOrCreateAttribute	./tinyxml2.h	/^	XMLAttribute* FindOrCreateAttribute( const char* name );$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( const char* name )
+FirstAttribute	./tinyxml2.h	/^	const XMLAttribute* FirstAttribute() const { return rootAttribute; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:() const
+FirstChild	./tinyxml2.h	/^	XMLNode*		FirstChild()			{ return firstChild; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+FirstChild	./tinyxml2.h	/^	const XMLNode*  FirstChild() const		{ return firstChild; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+FirstChildElement	./tinyxml2.cc	/^const XMLElement* XMLNode::FirstChildElement( const char* value ) const$/;"	f	class:XMLNode	signature:( const char* value ) const
+FirstChildElement	./tinyxml2.h	/^	XMLElement* FirstChildElement( const char* _value=0 )	{ return const_cast<XMLElement*>(const_cast<const XMLNode*>(this)->FirstChildElement( _value )); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:( const char* _value=0 )
+FirstChildElement	./tinyxml2.h	/^	const XMLElement* FirstChildElement( const char* value=0 ) const;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const char* value=0 ) const
+FloatAttribute	./tinyxml2.h	/^	float	 FloatAttribute( const char* name ) const	{ float f=0;	QueryFloatAttribute( name, &f );		return f; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+FloatValue	./tinyxml2.h	/^	float	 FloatValue() const				{ float f=0;	QueryFloatValue( &f );		return f; }$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+Free	./tinyxml2.h	/^	virtual void Free( void* ) = 0; $/;"	p	class:tinyxml2::MemPool	access:public	signature:( void* )
+Free	./tinyxml2.h	/^	virtual void Free( void* mem ) {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:( void* mem )
+GetCharacterRef	./tinyxml2.cc	/^const char* XMLUtil::GetCharacterRef( const char* p, char* value, int* length )$/;"	f	class:XMLUtil	signature:( const char* p, char* value, int* length )
+GetCharacterRef	./tinyxml2.h	/^	static const char* GetCharacterRef( const char* p, char* value, int* length );$/;"	p	class:tinyxml2::XMLUtil	access:public	signature:( const char* p, char* value, int* length )
+GetDocument	./tinyxml2.h	/^	XMLDocument* GetDocument()				{ return document; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+GetDocument	./tinyxml2.h	/^	const XMLDocument* GetDocument() const	{ return document; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+GetErrorStr1	./tinyxml2.h	/^	const char* GetErrorStr1() const { return errorStr1; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+GetErrorStr2	./tinyxml2.h	/^	const char* GetErrorStr2() const { return errorStr2; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+GetStr	./tinyxml2.cc	/^const char* StrPair::GetStr()$/;"	f	class:StrPair	signature:()
+GetStr	./tinyxml2.h	/^	const char* GetStr();$/;"	p	class:tinyxml2::StrPair	access:public	signature:()
+GetText	./tinyxml2.cc	/^const char* XMLElement::GetText() const$/;"	f	class:XMLElement	signature:() const
+GetText	./tinyxml2.h	/^	const char* GetText() const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:() const
+HasBOM	./tinyxml2.h	/^	bool HasBOM() const { return writeBOM; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+Identify	./tinyxml2.cc	/^char* XMLDocument::Identify( char* p, XMLNode** node ) $/;"	f	class:XMLDocument	signature:( char* p, XMLNode** node )
+Identify	./tinyxml2.h	/^	char* Identify( char* p, XMLNode** node );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( char* p, XMLNode** node )
+InitDocument	./tinyxml2.cc	/^void XMLDocument::InitDocument()$/;"	f	class:XMLDocument	signature:()
+InitDocument	./tinyxml2.h	/^	void InitDocument();$/;"	p	class:tinyxml2::XMLDocument	access:private	signature:()
+InsertAfterChild	./tinyxml2.cc	/^XMLNode* XMLNode::InsertAfterChild( XMLNode* afterThis, XMLNode* addThis )$/;"	f	class:XMLNode	signature:( XMLNode* afterThis, XMLNode* addThis )
+InsertAfterChild	./tinyxml2.h	/^	XMLNode* InsertAfterChild( XMLNode* afterThis, XMLNode* addThis );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLNode* afterThis, XMLNode* addThis )
+InsertEndChild	./tinyxml2.cc	/^XMLNode* XMLNode::InsertEndChild( XMLNode* addThis )$/;"	f	class:XMLNode	signature:( XMLNode* addThis )
+InsertEndChild	./tinyxml2.h	/^	XMLNode* InsertEndChild( XMLNode* addThis );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLNode* addThis )
+InsertFirstChild	./tinyxml2.cc	/^XMLNode* XMLNode::InsertFirstChild( XMLNode* addThis )$/;"	f	class:XMLNode	signature:( XMLNode* addThis )
+InsertFirstChild	./tinyxml2.h	/^	XMLNode* InsertFirstChild( XMLNode* addThis );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLNode* addThis )
+IntAttribute	./tinyxml2.h	/^	int		 IntAttribute( const char* name ) const		{ int i=0;		QueryIntAttribute( name, &i );		return i; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+IntValue	./tinyxml2.h	/^	int		 IntValue() const				{ int i=0;		QueryIntValue( &i );		return i; }$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+IsAlpha	./tinyxml2.h	/^	inline static int IsAlpha( unsigned char anyByte )		{ return ( anyByte < 128 ) ? isalpha( anyByte ) : 1; }$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( unsigned char anyByte )
+IsAlphaNum	./tinyxml2.h	/^	inline static int IsAlphaNum( unsigned char anyByte )	{ return ( anyByte < 128 ) ? isalnum( anyByte ) : 1; }$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( unsigned char anyByte )
+IsUTF8Continuation	./tinyxml2.h	/^	inline static int IsUTF8Continuation( const char p ) { return p & 0x80; }$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( const char p )
+ItemSize	./tinyxml2.h	/^	virtual int ItemSize() const	{ return SIZE; }$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:() const
+ItemSize	./tinyxml2.h	/^	virtual int ItemSize() const = 0;$/;"	p	class:tinyxml2::MemPool	access:public	signature:() const
+LF	./tinyxml2.cc	/^static const char LF = LINE_FEED;$/;"	v	file:
+LINE_FEED	./tinyxml2.cc	/^static const char LINE_FEED				= (char)0x0a;			\/\/ all line endings are normalized to LF$/;"	v	file:
+LastChild	./tinyxml2.h	/^	XMLNode*		LastChild()								{ return const_cast<XMLNode*>(const_cast<const XMLNode*>(this)->LastChild() ); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+LastChild	./tinyxml2.h	/^	const XMLNode*	LastChild() const						{ return lastChild; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+LastChildElement	./tinyxml2.cc	/^const XMLElement* XMLNode::LastChildElement( const char* value ) const$/;"	f	class:XMLNode	signature:( const char* value ) const
+LastChildElement	./tinyxml2.h	/^	XMLElement* LastChildElement( const char* _value=0 )	{ return const_cast<XMLElement*>(const_cast<const XMLNode*>(this)->LastChildElement(_value) ); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:( const char* _value=0 )
+LastChildElement	./tinyxml2.h	/^	const XMLElement* LastChildElement( const char* value=0 ) const;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const char* value=0 ) const
+LinkAttribute	./tinyxml2.cc	/^void XMLElement::LinkAttribute( XMLAttribute* attrib )$/;"	f	class:XMLElement	signature:( XMLAttribute* attrib )
+LinkAttribute	./tinyxml2.h	/^	void LinkAttribute( XMLAttribute* attrib );$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( XMLAttribute* attrib )
+LinkEndChild	./tinyxml2.h	/^	XMLNode* LinkEndChild( XMLNode* addThis )	{ return InsertEndChild( addThis ); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:( XMLNode* addThis )
+LoadFile	./tinyxml2.cc	/^int XMLDocument::LoadFile( FILE* fp ) $/;"	f	class:XMLDocument	signature:( FILE* fp )
+LoadFile	./tinyxml2.cc	/^int XMLDocument::LoadFile( const char* filename )$/;"	f	class:XMLDocument	signature:( const char* filename )
+LoadFile	./tinyxml2.h	/^	int LoadFile( FILE* );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( FILE* )
+LoadFile	./tinyxml2.h	/^	int LoadFile( const char* filename );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* filename )
+Mem	./tinyxml2.h	/^	T* Mem()							{ return mem; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:()
+Mem	./tinyxml2.h	/^	const T* Mem() const				{ return mem; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:() const
+MemPool	./tinyxml2.h	/^	MemPool() {}$/;"	f	class:tinyxml2::MemPool	access:public	signature:()
+MemPool	./tinyxml2.h	/^class MemPool$/;"	c	namespace:tinyxml2
+MemPoolT	./tinyxml2.h	/^	MemPoolT() : root(0), currentAllocs(0), nAllocs(0), maxAllocs(0)	{}$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:()
+MemPoolT	./tinyxml2.h	/^class MemPoolT : public MemPool$/;"	c	namespace:tinyxml2	inherits:MemPool
+NEEDS_DELETE	./tinyxml2.h	/^		NEEDS_DELETE = 0x200$/;"	e	enum:tinyxml2::StrPair::__anon2
+NEEDS_ENTITY_PROCESSING	./tinyxml2.h	/^		NEEDS_ENTITY_PROCESSING			= 0x01,$/;"	e	enum:tinyxml2::StrPair::__anon1
+NEEDS_FLUSH	./tinyxml2.h	/^		NEEDS_FLUSH = 0x100,$/;"	e	enum:tinyxml2::StrPair::__anon2
+NEEDS_NEWLINE_NORMALIZATION	./tinyxml2.h	/^		NEEDS_NEWLINE_NORMALIZATION		= 0x02,$/;"	e	enum:tinyxml2::StrPair::__anon1
+NUM_ENTITIES	./tinyxml2.cc	/^static const int NUM_ENTITIES = 5;$/;"	v	file:
+Name	./tinyxml2.h	/^	const char* Name() const		{ return Value(); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:() const
+Name	./tinyxml2.h	/^	const char* Name() const { return name.GetStr(); }			\/\/\/< The name of the attribute.$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+NewComment	./tinyxml2.cc	/^XMLComment* XMLDocument::NewComment( const char* str )$/;"	f	class:XMLDocument	signature:( const char* str )
+NewComment	./tinyxml2.h	/^	XMLComment* NewComment( const char* comment );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* comment )
+NewDeclaration	./tinyxml2.cc	/^XMLDeclaration* XMLDocument::NewDeclaration( const char* str )$/;"	f	class:XMLDocument	signature:( const char* str )
+NewDeclaration	./tinyxml2.h	/^	XMLDeclaration* NewDeclaration( const char* text );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* text )
+NewElement	./tinyxml2.cc	/^XMLElement* XMLDocument::NewElement( const char* name )$/;"	f	class:XMLDocument	signature:( const char* name )
+NewElement	./tinyxml2.h	/^	XMLElement* NewElement( const char* name );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* name )
+NewText	./tinyxml2.cc	/^XMLText* XMLDocument::NewText( const char* str )$/;"	f	class:XMLDocument	signature:( const char* str )
+NewText	./tinyxml2.h	/^	XMLText* NewText( const char* text );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* text )
+NewUnknown	./tinyxml2.cc	/^XMLUnknown* XMLDocument::NewUnknown( const char* str )$/;"	f	class:XMLDocument	signature:( const char* str )
+NewUnknown	./tinyxml2.h	/^	XMLUnknown* NewUnknown( const char* text );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* text )
+Next	./tinyxml2.h	/^	const XMLAttribute* Next() const { return next; }			\/\/\/< The next attribute in the list.$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+NextSibling	./tinyxml2.h	/^	XMLNode*	NextSibling()								{ return next; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+NextSibling	./tinyxml2.h	/^	const XMLNode*	NextSibling() const						{ return next; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+NextSiblingElement	./tinyxml2.cc	/^const XMLElement* XMLNode::NextSiblingElement( const char* value ) const$/;"	f	class:XMLNode	signature:( const char* value ) const
+NextSiblingElement	./tinyxml2.h	/^	const XMLElement*	NextSiblingElement( const char* value=0 ) const;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const char* value=0 ) const
+NextSiblingElement	./tinyxml2.h	/^ 	XMLElement*	NextSiblingElement( const char* _value=0 )	{ return const_cast<XMLElement*>(const_cast<const XMLNode*>(this)->NextSiblingElement( _value ) ); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:( const char* _value=0 )
+NoChildren	./tinyxml2.h	/^	bool NoChildren() const					{ return !firstChild; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+OPEN	./tinyxml2.h	/^		OPEN,		\/\/ <foo>$/;"	e	enum:tinyxml2::XMLElement::__anon6
+OpenElement	./tinyxml2.cc	/^void XMLPrinter::OpenElement( const char* name )$/;"	f	class:XMLPrinter	signature:( const char* name )
+OpenElement	./tinyxml2.h	/^	void OpenElement( const char* name );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* name )
+Parent	./tinyxml2.h	/^	XMLNode* Parent()						{ return parent; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+Parent	./tinyxml2.h	/^	const XMLNode*	Parent() const			{ return parent; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+Parse	./tinyxml2.cc	/^int XMLDocument::Parse( const char* p )$/;"	f	class:XMLDocument	signature:( const char* p )
+Parse	./tinyxml2.h	/^	int Parse( const char* xml );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* xml )
+ParseAttributes	./tinyxml2.cc	/^char* XMLElement::ParseAttributes( char* p )$/;"	f	class:XMLElement	signature:( char* p )
+ParseAttributes	./tinyxml2.h	/^	char* ParseAttributes( char* p );$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( char* p )
+ParseDeep	./tinyxml2.cc	/^char* XMLAttribute::ParseDeep( char* p, bool processEntities )$/;"	f	class:XMLAttribute	signature:( char* p, bool processEntities )
+ParseDeep	./tinyxml2.cc	/^char* XMLComment::ParseDeep( char* p, StrPair* )$/;"	f	class:XMLComment	signature:( char* p, StrPair* )
+ParseDeep	./tinyxml2.cc	/^char* XMLDeclaration::ParseDeep( char* p, StrPair* )$/;"	f	class:XMLDeclaration	signature:( char* p, StrPair* )
+ParseDeep	./tinyxml2.cc	/^char* XMLElement::ParseDeep( char* p, StrPair* strPair )$/;"	f	class:XMLElement	signature:( char* p, StrPair* strPair )
+ParseDeep	./tinyxml2.cc	/^char* XMLNode::ParseDeep( char* p, StrPair* parentEnd )$/;"	f	class:XMLNode	signature:( char* p, StrPair* parentEnd )
+ParseDeep	./tinyxml2.cc	/^char* XMLText::ParseDeep( char* p, StrPair* )$/;"	f	class:XMLText	signature:( char* p, StrPair* )
+ParseDeep	./tinyxml2.cc	/^char* XMLUnknown::ParseDeep( char* p, StrPair* )$/;"	f	class:XMLUnknown	signature:( char* p, StrPair* )
+ParseDeep	./tinyxml2.h	/^	char* ParseDeep( char* p, StrPair* endTag );$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( char* p, StrPair* endTag )
+ParseDeep	./tinyxml2.h	/^	char* ParseDeep( char* p, bool processEntities );$/;"	p	class:tinyxml2::XMLAttribute	access:private	signature:( char* p, bool processEntities )
+ParseDeep	./tinyxml2.h	/^	char* ParseDeep( char*, StrPair* endTag );$/;"	p	class:tinyxml2::XMLComment	access:public	signature:( char*, StrPair* endTag )
+ParseDeep	./tinyxml2.h	/^	char* ParseDeep( char*, StrPair* endTag );$/;"	p	class:tinyxml2::XMLDeclaration	access:public	signature:( char*, StrPair* endTag )
+ParseDeep	./tinyxml2.h	/^	char* ParseDeep( char*, StrPair* endTag );$/;"	p	class:tinyxml2::XMLText	access:public	signature:( char*, StrPair* endTag )
+ParseDeep	./tinyxml2.h	/^	char* ParseDeep( char*, StrPair* endTag );$/;"	p	class:tinyxml2::XMLUnknown	access:public	signature:( char*, StrPair* endTag )
+ParseDeep	./tinyxml2.h	/^	virtual char* ParseDeep( char*, StrPair* );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( char*, StrPair* )
+ParseName	./tinyxml2.cc	/^char* StrPair::ParseName( char* p )$/;"	f	class:StrPair	signature:( char* p )
+ParseName	./tinyxml2.h	/^	char* ParseName( char* in );$/;"	p	class:tinyxml2::StrPair	access:public	signature:( char* in )
+ParseText	./tinyxml2.cc	/^char* StrPair::ParseText( char* p, const char* endTag, int strFlags )$/;"	f	class:StrPair	signature:( char* p, const char* endTag, int strFlags )
+ParseText	./tinyxml2.h	/^	char* ParseText( char* in, const char* endTag, int strFlags );$/;"	p	class:tinyxml2::StrPair	access:public	signature:( char* in, const char* endTag, int strFlags )
+Pop	./tinyxml2.h	/^	T Pop() {$/;"	f	class:tinyxml2::DynArray	access:public	signature:()
+PopArr	./tinyxml2.h	/^	void PopArr( int count ) $/;"	f	class:tinyxml2::DynArray	access:public	signature:( int count )
+PreviousSibling	./tinyxml2.h	/^	XMLNode*	PreviousSibling()							{ return prev; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+PreviousSibling	./tinyxml2.h	/^	const XMLNode*	PreviousSibling() const					{ return prev; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+PreviousSiblingElement	./tinyxml2.cc	/^const XMLElement* XMLNode::PreviousSiblingElement( const char* value ) const$/;"	f	class:XMLNode	signature:( const char* value ) const
+PreviousSiblingElement	./tinyxml2.h	/^	XMLElement*	PreviousSiblingElement( const char* _value=0 ) { return const_cast<XMLElement*>(const_cast<const XMLNode*>(this)->PreviousSiblingElement( _value ) ); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:( const char* _value=0 )
+PreviousSiblingElement	./tinyxml2.h	/^	const XMLElement*	PreviousSiblingElement( const char* value=0 ) const ;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const char* value=0 ) const
+Print	./tinyxml2.cc	/^void XMLDocument::Print( XMLPrinter* streamer ) $/;"	f	class:XMLDocument	signature:( XMLPrinter* streamer )
+Print	./tinyxml2.cc	/^void XMLPrinter::Print( const char* format, ... )$/;"	f	class:XMLPrinter	signature:( const char* format, ... )
+Print	./tinyxml2.h	/^	void Print( XMLPrinter* streamer=0 );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( XMLPrinter* streamer=0 )
+Print	./tinyxml2.h	/^	void Print( const char* format, ... );$/;"	p	class:tinyxml2::XMLPrinter	access:private	signature:( const char* format, ... )
+PrintError	./tinyxml2.cc	/^void XMLDocument::PrintError() const $/;"	f	class:XMLDocument	signature:() const
+PrintError	./tinyxml2.h	/^	void PrintError() const;$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:() const
+PrintSpace	./tinyxml2.cc	/^void XMLPrinter::PrintSpace( int depth )$/;"	f	class:XMLPrinter	signature:( int depth )
+PrintSpace	./tinyxml2.h	/^	void PrintSpace( int depth );$/;"	p	class:tinyxml2::XMLPrinter	access:private	signature:( int depth )
+PrintStatuses	./ATwit.cc	/^void ATwit::PrintStatuses()$/;"	f	class:ATwit	signature:()
+PrintStatuses	./ATwit.h	/^		void PrintStatuses();$/;"	p	class:ATwit	access:public	signature:()
+PrintString	./tinyxml2.cc	/^void XMLPrinter::PrintString( const char* p, bool restricted )$/;"	f	class:XMLPrinter	signature:( const char* p, bool restricted )
+PrintString	./tinyxml2.h	/^	void PrintString( const char*, bool restrictedEntitySet );	\/\/ prints out, after detecting entities.$/;"	p	class:tinyxml2::XMLPrinter	access:private	signature:( const char*, bool restrictedEntitySet )
+ProcessEntities	./tinyxml2.h	/^	bool ProcessEntities() const						{ return processEntities; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+Push	./tinyxml2.h	/^	void Push( T t )$/;"	f	class:tinyxml2::DynArray	access:public	signature:( T t )
+PushArr	./tinyxml2.h	/^	T* PushArr( int count )$/;"	f	class:tinyxml2::DynArray	access:public	signature:( int count )
+PushAttribute	./tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, bool v )$/;"	f	class:XMLPrinter	signature:( const char* name, bool v )
+PushAttribute	./tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, const char* value )$/;"	f	class:XMLPrinter	signature:( const char* name, const char* value )
+PushAttribute	./tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, double v )$/;"	f	class:XMLPrinter	signature:( const char* name, double v )
+PushAttribute	./tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, int v )$/;"	f	class:XMLPrinter	signature:( const char* name, int v )
+PushAttribute	./tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, unsigned v )$/;"	f	class:XMLPrinter	signature:( const char* name, unsigned v )
+PushAttribute	./tinyxml2.h	/^	void PushAttribute( const char* name, bool value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* name, bool value )
+PushAttribute	./tinyxml2.h	/^	void PushAttribute( const char* name, const char* value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* name, const char* value )
+PushAttribute	./tinyxml2.h	/^	void PushAttribute( const char* name, double value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* name, double value )
+PushAttribute	./tinyxml2.h	/^	void PushAttribute( const char* name, int value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* name, int value )
+PushAttribute	./tinyxml2.h	/^	void PushAttribute( const char* name, unsigned value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* name, unsigned value )
+PushComment	./tinyxml2.cc	/^void XMLPrinter::PushComment( const char* comment )$/;"	f	class:XMLPrinter	signature:( const char* comment )
+PushComment	./tinyxml2.h	/^	void PushComment( const char* comment );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* comment )
+PushDeclaration	./tinyxml2.cc	/^void XMLPrinter::PushDeclaration( const char* value )$/;"	f	class:XMLPrinter	signature:( const char* value )
+PushDeclaration	./tinyxml2.h	/^	void PushDeclaration( const char* value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* value )
+PushHeader	./tinyxml2.cc	/^void XMLPrinter::PushHeader( bool writeBOM, bool writeDec )$/;"	f	class:XMLPrinter	signature:( bool writeBOM, bool writeDec )
+PushHeader	./tinyxml2.h	/^	void PushHeader( bool writeBOM, bool writeDeclaration );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( bool writeBOM, bool writeDeclaration )
+PushText	./tinyxml2.cc	/^void XMLPrinter::PushText( const char* text, bool cdata )$/;"	f	class:XMLPrinter	signature:( const char* text, bool cdata )
+PushText	./tinyxml2.h	/^	void PushText( const char* text, bool cdata=false );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* text, bool cdata=false )
+PushUnknown	./tinyxml2.cc	/^void XMLPrinter::PushUnknown( const char* value )$/;"	f	class:XMLPrinter	signature:( const char* value )
+PushUnknown	./tinyxml2.h	/^	void PushUnknown( const char* value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* value )
+QueryBoolAttribute	./tinyxml2.h	/^	int QueryBoolAttribute( const char* name, bool* _value ) const				{ const XMLAttribute* a = FindAttribute( name ); if ( !a ) return XML_NO_ATTRIBUTE; return a->QueryBoolValue( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, bool* _value ) const
+QueryBoolValue	./tinyxml2.cc	/^int XMLAttribute::QueryBoolValue( bool* value ) const$/;"	f	class:XMLAttribute	signature:( bool* value ) const
+QueryBoolValue	./tinyxml2.h	/^	int QueryBoolValue( bool* value ) const;$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( bool* value ) const
+QueryDoubleAttribute	./tinyxml2.h	/^	int QueryDoubleAttribute( const char* name, double* _value ) const			{ const XMLAttribute* a = FindAttribute( name ); if ( !a ) return XML_NO_ATTRIBUTE; return a->QueryDoubleValue( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, double* _value ) const
+QueryDoubleValue	./tinyxml2.cc	/^int XMLAttribute::QueryDoubleValue( double* value ) const$/;"	f	class:XMLAttribute	signature:( double* value ) const
+QueryDoubleValue	./tinyxml2.h	/^	int QueryDoubleValue( double* value ) const;$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( double* value ) const
+QueryFloatAttribute	./tinyxml2.h	/^	int QueryFloatAttribute( const char* name, float* _value ) const				{ const XMLAttribute* a = FindAttribute( name ); if ( !a ) return XML_NO_ATTRIBUTE; return a->QueryFloatValue( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, float* _value ) const
+QueryFloatValue	./tinyxml2.cc	/^int XMLAttribute::QueryFloatValue( float* value ) const$/;"	f	class:XMLAttribute	signature:( float* value ) const
+QueryFloatValue	./tinyxml2.h	/^	int QueryFloatValue( float* value ) const;$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( float* value ) const
+QueryIntAttribute	./tinyxml2.h	/^	int QueryIntAttribute( const char* name, int* _value ) const					{ const XMLAttribute* a = FindAttribute( name ); if ( !a ) return XML_NO_ATTRIBUTE; return a->QueryIntValue( _value ); } $/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, int* _value ) const
+QueryIntValue	./tinyxml2.cc	/^int XMLAttribute::QueryIntValue( int* value ) const$/;"	f	class:XMLAttribute	signature:( int* value ) const
+QueryIntValue	./tinyxml2.h	/^	int QueryIntValue( int* value ) const;$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( int* value ) const
+QueryUnsignedAttribute	./tinyxml2.h	/^	int QueryUnsignedAttribute( const char* name, unsigned int* _value ) const	{ const XMLAttribute* a = FindAttribute( name ); if ( !a ) return XML_NO_ATTRIBUTE; return a->QueryUnsignedValue( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, unsigned int* _value ) const
+QueryUnsignedValue	./tinyxml2.cc	/^int XMLAttribute::QueryUnsignedValue( unsigned int* value ) const$/;"	f	class:XMLAttribute	signature:( unsigned int* value ) const
+QueryUnsignedValue	./tinyxml2.h	/^	int QueryUnsignedValue( unsigned int* value ) const;$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( unsigned int* value ) const
+ReadBOM	./tinyxml2.cc	/^const char* XMLUtil::ReadBOM( const char* p, bool* bom )$/;"	f	class:XMLUtil	signature:( const char* p, bool* bom )
+ReadBOM	./tinyxml2.h	/^	static const char* ReadBOM( const char* p, bool* hasBOM );$/;"	p	class:tinyxml2::XMLUtil	access:public	signature:( const char* p, bool* hasBOM )
+Reset	./tinyxml2.cc	/^void StrPair::Reset()$/;"	f	class:StrPair	signature:()
+Reset	./tinyxml2.h	/^	void Reset();$/;"	p	class:tinyxml2::StrPair	access:private	signature:()
+RootElement	./tinyxml2.h	/^	XMLElement* RootElement()				{ return FirstChildElement(); }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:()
+RootElement	./tinyxml2.h	/^	const XMLElement* RootElement() const	{ return FirstChildElement(); }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+SINGLE_QUOTE	./tinyxml2.cc	/^static const char SINGLE_QUOTE			= '\\'';$/;"	v	file:
+SaveFile	./tinyxml2.cc	/^void XMLDocument::SaveFile( const char* filename )$/;"	f	class:XMLDocument	signature:( const char* filename )
+SaveFile	./tinyxml2.h	/^	void SaveFile( const char* filename );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* filename )
+SealElement	./tinyxml2.cc	/^void XMLPrinter::SealElement()$/;"	f	class:XMLPrinter	signature:()
+SealElement	./tinyxml2.h	/^	void SealElement();$/;"	p	class:tinyxml2::XMLPrinter	access:private	signature:()
+Set	./tinyxml2.h	/^	void Set( char* _start, char* _end, int _flags ) {$/;"	f	class:tinyxml2::StrPair	access:public	signature:( char* _start, char* _end, int _flags )
+SetAttribute	./tinyxml2.cc	/^void XMLAttribute::SetAttribute( bool v )$/;"	f	class:XMLAttribute	signature:( bool v )
+SetAttribute	./tinyxml2.cc	/^void XMLAttribute::SetAttribute( const char* v )$/;"	f	class:XMLAttribute	signature:( const char* v )
+SetAttribute	./tinyxml2.cc	/^void XMLAttribute::SetAttribute( double v )$/;"	f	class:XMLAttribute	signature:( double v )
+SetAttribute	./tinyxml2.cc	/^void XMLAttribute::SetAttribute( float v )$/;"	f	class:XMLAttribute	signature:( float v )
+SetAttribute	./tinyxml2.cc	/^void XMLAttribute::SetAttribute( int v )$/;"	f	class:XMLAttribute	signature:( int v )
+SetAttribute	./tinyxml2.cc	/^void XMLAttribute::SetAttribute( unsigned v )$/;"	f	class:XMLAttribute	signature:( unsigned v )
+SetAttribute	./tinyxml2.h	/^	void SetAttribute( bool value );$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( bool value )
+SetAttribute	./tinyxml2.h	/^	void SetAttribute( const char* name, bool _value )			{ XMLAttribute* a = FindOrCreateAttribute( name ); a->SetAttribute( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, bool _value )
+SetAttribute	./tinyxml2.h	/^	void SetAttribute( const char* name, const char* _value )	{ XMLAttribute* a = FindOrCreateAttribute( name ); a->SetAttribute( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, const char* _value )
+SetAttribute	./tinyxml2.h	/^	void SetAttribute( const char* name, double _value )			{ XMLAttribute* a = FindOrCreateAttribute( name ); a->SetAttribute( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, double _value )
+SetAttribute	./tinyxml2.h	/^	void SetAttribute( const char* name, int _value )			{ XMLAttribute* a = FindOrCreateAttribute( name ); a->SetAttribute( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, int _value )
+SetAttribute	./tinyxml2.h	/^	void SetAttribute( const char* name, unsigned _value )		{ XMLAttribute* a = FindOrCreateAttribute( name ); a->SetAttribute( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, unsigned _value )
+SetAttribute	./tinyxml2.h	/^	void SetAttribute( const char* value );$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( const char* value )
+SetAttribute	./tinyxml2.h	/^	void SetAttribute( double value );$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( double value )
+SetAttribute	./tinyxml2.h	/^	void SetAttribute( float value );$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( float value )
+SetAttribute	./tinyxml2.h	/^	void SetAttribute( int value );$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( int value )
+SetAttribute	./tinyxml2.h	/^	void SetAttribute( unsigned value );$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( unsigned value )
+SetCData	./tinyxml2.h	/^	void SetCData( bool _isCData )			{ this->isCData = _isCData; }$/;"	f	class:tinyxml2::XMLText	access:public	signature:( bool _isCData )
+SetError	./tinyxml2.cc	/^void XMLDocument::SetError( int error, const char* str1, const char* str2 )$/;"	f	class:XMLDocument	signature:( int error, const char* str1, const char* str2 )
+SetError	./tinyxml2.h	/^	void SetError( int error, const char* str1, const char* str2 );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( int error, const char* str1, const char* str2 )
+SetInternedStr	./tinyxml2.h	/^	void SetInternedStr( const char* str ) { Reset(); this->start = const_cast<char*>(str); }$/;"	f	class:tinyxml2::StrPair	access:public	signature:( const char* str )
+SetName	./tinyxml2.cc	/^void XMLAttribute::SetName( const char* n )$/;"	f	class:XMLAttribute	signature:( const char* n )
+SetName	./tinyxml2.h	/^	void SetName( const char* name );$/;"	p	class:tinyxml2::XMLAttribute	access:private	signature:( const char* name )
+SetName	./tinyxml2.h	/^	void SetName( const char* str, bool staticMem=false )	{ SetValue( str, staticMem ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* str, bool staticMem=false )
+SetStr	./tinyxml2.cc	/^void StrPair::SetStr( const char* str, int flags )$/;"	f	class:StrPair	signature:( const char* str, int flags )
+SetStr	./tinyxml2.h	/^	void SetStr( const char* str, int flags=0 );$/;"	p	class:tinyxml2::StrPair	access:public	signature:( const char* str, int flags=0 )
+SetValue	./tinyxml2.cc	/^void XMLNode::SetValue( const char* str, bool staticMem )$/;"	f	class:XMLNode	signature:( const char* str, bool staticMem )
+SetValue	./tinyxml2.h	/^	void SetValue( const char* val, bool staticMem=false );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const char* val, bool staticMem=false )
+ShallowClone	./tinyxml2.cc	/^XMLNode* XMLComment::ShallowClone( XMLDocument* doc ) const$/;"	f	class:XMLComment	signature:( XMLDocument* doc ) const
+ShallowClone	./tinyxml2.cc	/^XMLNode* XMLDeclaration::ShallowClone( XMLDocument* doc ) const$/;"	f	class:XMLDeclaration	signature:( XMLDocument* doc ) const
+ShallowClone	./tinyxml2.cc	/^XMLNode* XMLElement::ShallowClone( XMLDocument* doc ) const$/;"	f	class:XMLElement	signature:( XMLDocument* doc ) const
+ShallowClone	./tinyxml2.cc	/^XMLNode* XMLText::ShallowClone( XMLDocument* doc ) const$/;"	f	class:XMLText	signature:( XMLDocument* doc ) const
+ShallowClone	./tinyxml2.cc	/^XMLNode* XMLUnknown::ShallowClone( XMLDocument* doc ) const$/;"	f	class:XMLUnknown	signature:( XMLDocument* doc ) const
+ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* \/*document*\/ ) const	{ return 0; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:( XMLDocument* ) const
+ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* document ) const = 0;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLDocument* document ) const
+ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* document ) const;$/;"	p	class:tinyxml2::XMLComment	access:public	signature:( XMLDocument* document ) const
+ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* document ) const;$/;"	p	class:tinyxml2::XMLDeclaration	access:public	signature:( XMLDocument* document ) const
+ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* document ) const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( XMLDocument* document ) const
+ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* document ) const;$/;"	p	class:tinyxml2::XMLText	access:public	signature:( XMLDocument* document ) const
+ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* document ) const;$/;"	p	class:tinyxml2::XMLUnknown	access:public	signature:( XMLDocument* document ) const
+ShallowEqual	./tinyxml2.cc	/^bool XMLComment::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:XMLComment	signature:( const XMLNode* compare ) const
+ShallowEqual	./tinyxml2.cc	/^bool XMLDeclaration::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:XMLDeclaration	signature:( const XMLNode* compare ) const
+ShallowEqual	./tinyxml2.cc	/^bool XMLElement::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:XMLElement	signature:( const XMLNode* compare ) const
+ShallowEqual	./tinyxml2.cc	/^bool XMLText::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:XMLText	signature:( const XMLNode* compare ) const
+ShallowEqual	./tinyxml2.cc	/^bool XMLUnknown::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:XMLUnknown	signature:( const XMLNode* compare ) const
+ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* \/*compare*\/ ) const	{ return false; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:( const XMLNode* ) const
+ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* compare ) const = 0;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const XMLNode* compare ) const
+ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* compare ) const;$/;"	p	class:tinyxml2::XMLComment	access:public	signature:( const XMLNode* compare ) const
+ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* compare ) const;$/;"	p	class:tinyxml2::XMLDeclaration	access:public	signature:( const XMLNode* compare ) const
+ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* compare ) const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( const XMLNode* compare ) const
+ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* compare ) const;$/;"	p	class:tinyxml2::XMLText	access:public	signature:( const XMLNode* compare ) const
+ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* compare ) const;$/;"	p	class:tinyxml2::XMLUnknown	access:public	signature:( const XMLNode* compare ) const
+Size	./tinyxml2.h	/^	int Size() const					{ return size; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:() const
+SkipWhiteSpace	./tinyxml2.h	/^	static char* SkipWhiteSpace( char* p )				{ while( !IsUTF8Continuation(*p) && isspace( *p ) ) { ++p; } return p; }$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( char* p )
+SkipWhiteSpace	./tinyxml2.h	/^	static const char* SkipWhiteSpace( const char* p )	{ while( !IsUTF8Continuation(*p) && isspace( *p ) ) { ++p; } return p; }$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( const char* p )
+StrPair	./tinyxml2.h	/^	StrPair() : flags( 0 ), start( 0 ), end( 0 ) {}$/;"	f	class:tinyxml2::StrPair	access:public	signature:()
+StrPair	./tinyxml2.h	/^class StrPair$/;"	c	namespace:tinyxml2
+StrPair::GetStr	./tinyxml2.cc	/^const char* StrPair::GetStr()$/;"	f	class:StrPair	signature:()
+StrPair::ParseName	./tinyxml2.cc	/^char* StrPair::ParseName( char* p )$/;"	f	class:StrPair	signature:( char* p )
+StrPair::ParseText	./tinyxml2.cc	/^char* StrPair::ParseText( char* p, const char* endTag, int strFlags )$/;"	f	class:StrPair	signature:( char* p, const char* endTag, int strFlags )
+StrPair::Reset	./tinyxml2.cc	/^void StrPair::Reset()$/;"	f	class:StrPair	signature:()
+StrPair::SetStr	./tinyxml2.cc	/^void StrPair::SetStr( const char* str, int flags )$/;"	f	class:StrPair	signature:( const char* str, int flags )
+StrPair::~StrPair	./tinyxml2.cc	/^StrPair::~StrPair()$/;"	f	class:StrPair	signature:()
+StringEqual	./tinyxml2.h	/^	inline static bool StringEqual( const char* p, const char* q, int nChar=INT_MAX )  {$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( const char* p, const char* q, int nChar=INT_MAX )
+TEXT_ELEMENT	./tinyxml2.h	/^		TEXT_ELEMENT		= NEEDS_ENTITY_PROCESSING | NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
+TEXT_ELEMENT_LEAVE_ENTITIES	./tinyxml2.h	/^		TEXT_ELEMENT_LEAVE_ENTITIES		= NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
+TINYXML2_INCLUDED	./tinyxml2.h	25;"	d
+TIXML2_MAJOR_VERSION	./tinyxml2.h	/^static const int TIXML2_MAJOR_VERSION = 0;$/;"	v
+TIXML2_MINOR_VERSION	./tinyxml2.h	/^static const int TIXML2_MINOR_VERSION = 9;$/;"	v
+TIXML2_PATCH_VERSION	./tinyxml2.h	/^static const int TIXML2_PATCH_VERSION = 2;$/;"	v
+TIXMLASSERT	./tinyxml2.h	59;"	d
+TIXMLASSERT	./tinyxml2.h	62;"	d
+TIXMLASSERT	./tinyxml2.h	65;"	d
+TIXMLASSERT	./tinyxml2.h	68;"	d
+TIXML_SNPRINTF	./tinyxml2.h	79;"	d
+TIXML_SNPRINTF	./tinyxml2.h	84;"	d
+TIXML_SNPRINTF	./tinyxml2.h	89;"	d
+TIXML_SNPRINTF	./tinyxml2.h	92;"	d
+TIXML_SSCANF	./tinyxml2.h	80;"	d
+TIXML_SSCANF	./tinyxml2.h	85;"	d
+TIXML_SSCANF	./tinyxml2.h	90;"	d
+TIXML_SSCANF	./tinyxml2.h	93;"	d
+TIXML_UTF_LEAD_0	./tinyxml2.cc	/^static const unsigned char TIXML_UTF_LEAD_0 = 0xefU;$/;"	v	file:
+TIXML_UTF_LEAD_1	./tinyxml2.cc	/^static const unsigned char TIXML_UTF_LEAD_1 = 0xbbU;$/;"	v	file:
+TIXML_UTF_LEAD_2	./tinyxml2.cc	/^static const unsigned char TIXML_UTF_LEAD_2 = 0xbfU;$/;"	v	file:
+Time	./ATwit.h	/^	string Time; $/;"	m	struct:tweetData	access:public
+ToComment	./tinyxml2.h	/^	virtual XMLComment*		ToComment()		{ return 0; }	\/\/\/< Safely cast to a Comment, or null.$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+ToComment	./tinyxml2.h	/^	virtual XMLComment*	ToComment()					{ return this; }$/;"	f	class:tinyxml2::XMLComment	access:public	signature:()
+ToComment	./tinyxml2.h	/^	virtual const XMLComment*		ToComment() const		{ return 0; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+ToComment	./tinyxml2.h	/^	virtual const XMLComment* ToComment() const		{ return this; }$/;"	f	class:tinyxml2::XMLComment	access:public	signature:() const
+ToDeclaration	./tinyxml2.h	/^	virtual XMLDeclaration*	ToDeclaration()					{ return this; }$/;"	f	class:tinyxml2::XMLDeclaration	access:public	signature:()
+ToDeclaration	./tinyxml2.h	/^	virtual XMLDeclaration*	ToDeclaration()	{ return 0; }	\/\/\/< Safely cast to a Declaration, or null.$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+ToDeclaration	./tinyxml2.h	/^	virtual const XMLDeclaration*	ToDeclaration() const	{ return 0; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+ToDeclaration	./tinyxml2.h	/^	virtual const XMLDeclaration* ToDeclaration() const		{ return this; }$/;"	f	class:tinyxml2::XMLDeclaration	access:public	signature:() const
+ToDocument	./tinyxml2.h	/^	virtual XMLDocument*	ToDocument()	{ return 0; }	\/\/\/< Safely cast to a Document, or null.$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+ToDocument	./tinyxml2.h	/^	virtual XMLDocument* ToDocument()				{ return this; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:()
+ToDocument	./tinyxml2.h	/^	virtual const XMLDocument*		ToDocument() const		{ return 0; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+ToDocument	./tinyxml2.h	/^	virtual const XMLDocument* ToDocument() const	{ return this; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+ToElement	./tinyxml2.h	/^	virtual XMLElement*		ToElement()		{ return 0; }	\/\/\/< Safely cast to an Element, or null.$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+ToElement	./tinyxml2.h	/^	virtual XMLElement* ToElement()				{ return this; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:()
+ToElement	./tinyxml2.h	/^	virtual const XMLElement*		ToElement() const		{ return 0; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+ToElement	./tinyxml2.h	/^	virtual const XMLElement* ToElement() const { return this; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:() const
+ToText	./tinyxml2.h	/^	virtual XMLText*		ToText()		{ return 0; }	\/\/\/< Safely cast to Text, or null.$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+ToText	./tinyxml2.h	/^	virtual XMLText*	ToText()			{ return this; }$/;"	f	class:tinyxml2::XMLText	access:public	signature:()
+ToText	./tinyxml2.h	/^	virtual const XMLText*			ToText() const			{ return 0; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+ToText	./tinyxml2.h	/^	virtual const XMLText*	ToText() const	{ return this; }$/;"	f	class:tinyxml2::XMLText	access:public	signature:() const
+ToUnknown	./tinyxml2.h	/^	virtual XMLUnknown*		ToUnknown()		{ return 0; }	\/\/\/< Safely cast to an Unknown, or null.$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+ToUnknown	./tinyxml2.h	/^	virtual XMLUnknown*	ToUnknown()					{ return this; }$/;"	f	class:tinyxml2::XMLUnknown	access:public	signature:()
+ToUnknown	./tinyxml2.h	/^	virtual const XMLUnknown*		ToUnknown() const		{ return 0; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+ToUnknown	./tinyxml2.h	/^	virtual const XMLUnknown* ToUnknown() const		{ return this; }$/;"	f	class:tinyxml2::XMLUnknown	access:public	signature:() const
+Trace	./tinyxml2.h	/^	void Trace( const char* name ) {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:( const char* name )
+Tweet	./ATwit.h	/^	string Tweet; $/;"	m	struct:tweetData	access:public
+Unlink	./tinyxml2.cc	/^void XMLNode::Unlink( XMLNode* child )$/;"	f	class:XMLNode	signature:( XMLNode* child )
+Unlink	./tinyxml2.h	/^	void Unlink( XMLNode* child );$/;"	p	class:tinyxml2::XMLNode	access:private	signature:( XMLNode* child )
+UnsignedAttribute	./tinyxml2.h	/^	unsigned UnsignedAttribute( const char* name ) const{ unsigned i=0; QueryUnsignedAttribute( name, &i ); return i; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+UnsignedValue	./tinyxml2.h	/^	unsigned UnsignedValue() const			{ unsigned i=0; QueryUnsignedValue( &i );	return i; }$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+UserName	./ATwit.h	/^	string UserName; $/;"	m	struct:tweetData	access:public
+Value	./tinyxml2.h	/^	const char* Value() const			{ return value.GetStr(); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+Value	./tinyxml2.h	/^	const char* Value() const { return value.GetStr(); }		\/\/\/< The value of the attribute.$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+Visit	./tinyxml2.cc	/^bool XMLPrinter::Visit( const XMLComment& comment )$/;"	f	class:XMLPrinter	signature:( const XMLComment& comment )
+Visit	./tinyxml2.cc	/^bool XMLPrinter::Visit( const XMLDeclaration& declaration )$/;"	f	class:XMLPrinter	signature:( const XMLDeclaration& declaration )
+Visit	./tinyxml2.cc	/^bool XMLPrinter::Visit( const XMLText& text )$/;"	f	class:XMLPrinter	signature:( const XMLText& text )
+Visit	./tinyxml2.cc	/^bool XMLPrinter::Visit( const XMLUnknown& unknown )$/;"	f	class:XMLPrinter	signature:( const XMLUnknown& unknown )
+Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLComment& \/*comment*\/ )				{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLComment& )
+Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLComment& comment );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLComment& comment )
+Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLDeclaration& \/*declaration*\/ )		{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLDeclaration& )
+Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLDeclaration& declaration );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLDeclaration& declaration )
+Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLText& \/*text*\/ )					{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLText& )
+Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLText& text );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLText& text )
+Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLUnknown& \/*unknown*\/ )				{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLUnknown& )
+Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLUnknown& unknown );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLUnknown& unknown )
+VisitEnter	./tinyxml2.cc	/^bool XMLPrinter::VisitEnter( const XMLDocument& doc )$/;"	f	class:XMLPrinter	signature:( const XMLDocument& doc )
+VisitEnter	./tinyxml2.cc	/^bool XMLPrinter::VisitEnter( const XMLElement& element, const XMLAttribute* attribute )$/;"	f	class:XMLPrinter	signature:( const XMLElement& element, const XMLAttribute* attribute )
+VisitEnter	./tinyxml2.h	/^	virtual bool VisitEnter( const XMLDocument& \/*doc*\/ )			{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLDocument& )
+VisitEnter	./tinyxml2.h	/^	virtual bool VisitEnter( const XMLDocument& \/*doc*\/ );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLDocument& )
+VisitEnter	./tinyxml2.h	/^	virtual bool VisitEnter( const XMLElement& \/*element*\/, const XMLAttribute* \/*firstAttribute*\/ )	{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLElement& , const XMLAttribute* )
+VisitEnter	./tinyxml2.h	/^	virtual bool VisitEnter( const XMLElement& element, const XMLAttribute* attribute );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLElement& element, const XMLAttribute* attribute )
+VisitExit	./tinyxml2.cc	/^bool XMLPrinter::VisitExit( const XMLElement& )$/;"	f	class:XMLPrinter	signature:( const XMLElement& )
+VisitExit	./tinyxml2.h	/^	virtual bool VisitExit( const XMLDocument& \/*doc*\/ )			{ return true; }$/;"	f	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLDocument& )
+VisitExit	./tinyxml2.h	/^	virtual bool VisitExit( const XMLDocument& \/*doc*\/ )			{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLDocument& )
+VisitExit	./tinyxml2.h	/^	virtual bool VisitExit( const XMLElement& \/*element*\/ )			{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLElement& )
+VisitExit	./tinyxml2.h	/^	virtual bool VisitExit( const XMLElement& element );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLElement& element )
+XMLAttribute	./tinyxml2.h	/^	XMLAttribute( const XMLAttribute& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLAttribute	access:private	signature:( const XMLAttribute& )
+XMLAttribute	./tinyxml2.h	/^	XMLAttribute() : next( 0 ) {}$/;"	f	class:tinyxml2::XMLAttribute	access:private	signature:()
+XMLAttribute	./tinyxml2.h	/^class XMLAttribute$/;"	c	namespace:tinyxml2
+XMLAttribute::ParseDeep	./tinyxml2.cc	/^char* XMLAttribute::ParseDeep( char* p, bool processEntities )$/;"	f	class:XMLAttribute	signature:( char* p, bool processEntities )
+XMLAttribute::QueryBoolValue	./tinyxml2.cc	/^int XMLAttribute::QueryBoolValue( bool* value ) const$/;"	f	class:XMLAttribute	signature:( bool* value ) const
+XMLAttribute::QueryDoubleValue	./tinyxml2.cc	/^int XMLAttribute::QueryDoubleValue( double* value ) const$/;"	f	class:XMLAttribute	signature:( double* value ) const
+XMLAttribute::QueryFloatValue	./tinyxml2.cc	/^int XMLAttribute::QueryFloatValue( float* value ) const$/;"	f	class:XMLAttribute	signature:( float* value ) const
+XMLAttribute::QueryIntValue	./tinyxml2.cc	/^int XMLAttribute::QueryIntValue( int* value ) const$/;"	f	class:XMLAttribute	signature:( int* value ) const
+XMLAttribute::QueryUnsignedValue	./tinyxml2.cc	/^int XMLAttribute::QueryUnsignedValue( unsigned int* value ) const$/;"	f	class:XMLAttribute	signature:( unsigned int* value ) const
+XMLAttribute::SetAttribute	./tinyxml2.cc	/^void XMLAttribute::SetAttribute( bool v )$/;"	f	class:XMLAttribute	signature:( bool v )
+XMLAttribute::SetAttribute	./tinyxml2.cc	/^void XMLAttribute::SetAttribute( const char* v )$/;"	f	class:XMLAttribute	signature:( const char* v )
+XMLAttribute::SetAttribute	./tinyxml2.cc	/^void XMLAttribute::SetAttribute( double v )$/;"	f	class:XMLAttribute	signature:( double v )
+XMLAttribute::SetAttribute	./tinyxml2.cc	/^void XMLAttribute::SetAttribute( float v )$/;"	f	class:XMLAttribute	signature:( float v )
+XMLAttribute::SetAttribute	./tinyxml2.cc	/^void XMLAttribute::SetAttribute( int v )$/;"	f	class:XMLAttribute	signature:( int v )
+XMLAttribute::SetAttribute	./tinyxml2.cc	/^void XMLAttribute::SetAttribute( unsigned v )$/;"	f	class:XMLAttribute	signature:( unsigned v )
+XMLAttribute::SetName	./tinyxml2.cc	/^void XMLAttribute::SetName( const char* n )$/;"	f	class:XMLAttribute	signature:( const char* n )
+XMLComment	./tinyxml2.cc	/^XMLComment::XMLComment( XMLDocument* doc ) : XMLNode( doc )$/;"	f	class:XMLComment	signature:( XMLDocument* doc )
+XMLComment	./tinyxml2.h	/^	XMLComment( XMLDocument* doc );$/;"	p	class:tinyxml2::XMLComment	access:protected	signature:( XMLDocument* doc )
+XMLComment	./tinyxml2.h	/^	XMLComment( const XMLComment& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLComment	access:protected	signature:( const XMLComment& )
+XMLComment	./tinyxml2.h	/^class XMLComment : public XMLNode$/;"	c	namespace:tinyxml2	inherits:XMLNode
+XMLComment::Accept	./tinyxml2.cc	/^bool XMLComment::Accept( XMLVisitor* visitor ) const$/;"	f	class:XMLComment	signature:( XMLVisitor* visitor ) const
+XMLComment::ParseDeep	./tinyxml2.cc	/^char* XMLComment::ParseDeep( char* p, StrPair* )$/;"	f	class:XMLComment	signature:( char* p, StrPair* )
+XMLComment::ShallowClone	./tinyxml2.cc	/^XMLNode* XMLComment::ShallowClone( XMLDocument* doc ) const$/;"	f	class:XMLComment	signature:( XMLDocument* doc ) const
+XMLComment::ShallowEqual	./tinyxml2.cc	/^bool XMLComment::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:XMLComment	signature:( const XMLNode* compare ) const
+XMLComment::XMLComment	./tinyxml2.cc	/^XMLComment::XMLComment( XMLDocument* doc ) : XMLNode( doc )$/;"	f	class:XMLComment	signature:( XMLDocument* doc )
+XMLComment::~XMLComment	./tinyxml2.cc	/^XMLComment::~XMLComment()$/;"	f	class:XMLComment	signature:()
+XMLDeclaration	./tinyxml2.cc	/^XMLDeclaration::XMLDeclaration( XMLDocument* doc ) : XMLNode( doc )$/;"	f	class:XMLDeclaration	signature:( XMLDocument* doc )
+XMLDeclaration	./tinyxml2.h	/^	XMLDeclaration( XMLDocument* doc );$/;"	p	class:tinyxml2::XMLDeclaration	access:protected	signature:( XMLDocument* doc )
+XMLDeclaration	./tinyxml2.h	/^	XMLDeclaration( const XMLDeclaration& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLDeclaration	access:protected	signature:( const XMLDeclaration& )
+XMLDeclaration	./tinyxml2.h	/^class XMLDeclaration : public XMLNode$/;"	c	namespace:tinyxml2	inherits:XMLNode
+XMLDeclaration::Accept	./tinyxml2.cc	/^bool XMLDeclaration::Accept( XMLVisitor* visitor ) const$/;"	f	class:XMLDeclaration	signature:( XMLVisitor* visitor ) const
+XMLDeclaration::ParseDeep	./tinyxml2.cc	/^char* XMLDeclaration::ParseDeep( char* p, StrPair* )$/;"	f	class:XMLDeclaration	signature:( char* p, StrPair* )
+XMLDeclaration::ShallowClone	./tinyxml2.cc	/^XMLNode* XMLDeclaration::ShallowClone( XMLDocument* doc ) const$/;"	f	class:XMLDeclaration	signature:( XMLDocument* doc ) const
+XMLDeclaration::ShallowEqual	./tinyxml2.cc	/^bool XMLDeclaration::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:XMLDeclaration	signature:( const XMLNode* compare ) const
+XMLDeclaration::XMLDeclaration	./tinyxml2.cc	/^XMLDeclaration::XMLDeclaration( XMLDocument* doc ) : XMLNode( doc )$/;"	f	class:XMLDeclaration	signature:( XMLDocument* doc )
+XMLDeclaration::~XMLDeclaration	./tinyxml2.cc	/^XMLDeclaration::~XMLDeclaration()$/;"	f	class:XMLDeclaration	signature:()
+XMLDocument	./tinyxml2.cc	/^XMLDocument::XMLDocument( bool _processEntities ) :$/;"	f	class:XMLDocument	signature:( bool _processEntities )
+XMLDocument	./tinyxml2.h	/^	XMLDocument( bool processEntities = true ); $/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( bool processEntities = true )
+XMLDocument	./tinyxml2.h	/^	XMLDocument( const XMLDocument& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLDocument	access:private	signature:( const XMLDocument& )
+XMLDocument	./tinyxml2.h	/^class XMLDocument : public XMLNode$/;"	c	namespace:tinyxml2	inherits:XMLNode
+XMLDocument::Accept	./tinyxml2.cc	/^bool XMLDocument::Accept( XMLVisitor* visitor ) const$/;"	f	class:XMLDocument	signature:( XMLVisitor* visitor ) const
+XMLDocument::Identify	./tinyxml2.cc	/^char* XMLDocument::Identify( char* p, XMLNode** node ) $/;"	f	class:XMLDocument	signature:( char* p, XMLNode** node )
+XMLDocument::InitDocument	./tinyxml2.cc	/^void XMLDocument::InitDocument()$/;"	f	class:XMLDocument	signature:()
+XMLDocument::LoadFile	./tinyxml2.cc	/^int XMLDocument::LoadFile( FILE* fp ) $/;"	f	class:XMLDocument	signature:( FILE* fp )
+XMLDocument::LoadFile	./tinyxml2.cc	/^int XMLDocument::LoadFile( const char* filename )$/;"	f	class:XMLDocument	signature:( const char* filename )
+XMLDocument::NewComment	./tinyxml2.cc	/^XMLComment* XMLDocument::NewComment( const char* str )$/;"	f	class:XMLDocument	signature:( const char* str )
+XMLDocument::NewDeclaration	./tinyxml2.cc	/^XMLDeclaration* XMLDocument::NewDeclaration( const char* str )$/;"	f	class:XMLDocument	signature:( const char* str )
+XMLDocument::NewElement	./tinyxml2.cc	/^XMLElement* XMLDocument::NewElement( const char* name )$/;"	f	class:XMLDocument	signature:( const char* name )
+XMLDocument::NewText	./tinyxml2.cc	/^XMLText* XMLDocument::NewText( const char* str )$/;"	f	class:XMLDocument	signature:( const char* str )
+XMLDocument::NewUnknown	./tinyxml2.cc	/^XMLUnknown* XMLDocument::NewUnknown( const char* str )$/;"	f	class:XMLDocument	signature:( const char* str )
+XMLDocument::Parse	./tinyxml2.cc	/^int XMLDocument::Parse( const char* p )$/;"	f	class:XMLDocument	signature:( const char* p )
+XMLDocument::Print	./tinyxml2.cc	/^void XMLDocument::Print( XMLPrinter* streamer ) $/;"	f	class:XMLDocument	signature:( XMLPrinter* streamer )
+XMLDocument::PrintError	./tinyxml2.cc	/^void XMLDocument::PrintError() const $/;"	f	class:XMLDocument	signature:() const
+XMLDocument::SaveFile	./tinyxml2.cc	/^void XMLDocument::SaveFile( const char* filename )$/;"	f	class:XMLDocument	signature:( const char* filename )
+XMLDocument::SetError	./tinyxml2.cc	/^void XMLDocument::SetError( int error, const char* str1, const char* str2 )$/;"	f	class:XMLDocument	signature:( int error, const char* str1, const char* str2 )
+XMLDocument::XMLDocument	./tinyxml2.cc	/^XMLDocument::XMLDocument( bool _processEntities ) :$/;"	f	class:XMLDocument	signature:( bool _processEntities )
+XMLDocument::~XMLDocument	./tinyxml2.cc	/^XMLDocument::~XMLDocument()$/;"	f	class:XMLDocument	signature:()
+XMLElement	./tinyxml2.cc	/^XMLElement::XMLElement( XMLDocument* doc ) : XMLNode( doc ),$/;"	f	class:XMLElement	signature:( XMLDocument* doc )
+XMLElement	./tinyxml2.h	/^	XMLElement( XMLDocument* doc );$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( XMLDocument* doc )
+XMLElement	./tinyxml2.h	/^	XMLElement( const XMLElement& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( const XMLElement& )
+XMLElement	./tinyxml2.h	/^class XMLElement : public XMLNode$/;"	c	namespace:tinyxml2	inherits:XMLNode
+XMLElement::Accept	./tinyxml2.cc	/^bool XMLElement::Accept( XMLVisitor* visitor ) const$/;"	f	class:XMLElement	signature:( XMLVisitor* visitor ) const
+XMLElement::Attribute	./tinyxml2.cc	/^const char* XMLElement::Attribute( const char* name, const char* value ) const$/;"	f	class:XMLElement	signature:( const char* name, const char* value ) const
+XMLElement::DeleteAttribute	./tinyxml2.cc	/^void XMLElement::DeleteAttribute( const char* name )$/;"	f	class:XMLElement	signature:( const char* name )
+XMLElement::FindAttribute	./tinyxml2.cc	/^XMLAttribute* XMLElement::FindAttribute( const char* name )$/;"	f	class:XMLElement	signature:( const char* name )
+XMLElement::FindAttribute	./tinyxml2.cc	/^const XMLAttribute* XMLElement::FindAttribute( const char* name ) const$/;"	f	class:XMLElement	signature:( const char* name ) const
+XMLElement::FindOrCreateAttribute	./tinyxml2.cc	/^XMLAttribute* XMLElement::FindOrCreateAttribute( const char* name )$/;"	f	class:XMLElement	signature:( const char* name )
+XMLElement::GetText	./tinyxml2.cc	/^const char* XMLElement::GetText() const$/;"	f	class:XMLElement	signature:() const
+XMLElement::LinkAttribute	./tinyxml2.cc	/^void XMLElement::LinkAttribute( XMLAttribute* attrib )$/;"	f	class:XMLElement	signature:( XMLAttribute* attrib )
+XMLElement::ParseAttributes	./tinyxml2.cc	/^char* XMLElement::ParseAttributes( char* p )$/;"	f	class:XMLElement	signature:( char* p )
+XMLElement::ParseDeep	./tinyxml2.cc	/^char* XMLElement::ParseDeep( char* p, StrPair* strPair )$/;"	f	class:XMLElement	signature:( char* p, StrPair* strPair )
+XMLElement::ShallowClone	./tinyxml2.cc	/^XMLNode* XMLElement::ShallowClone( XMLDocument* doc ) const$/;"	f	class:XMLElement	signature:( XMLDocument* doc ) const
+XMLElement::ShallowEqual	./tinyxml2.cc	/^bool XMLElement::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:XMLElement	signature:( const XMLNode* compare ) const
+XMLElement::XMLElement	./tinyxml2.cc	/^XMLElement::XMLElement( XMLDocument* doc ) : XMLNode( doc ),$/;"	f	class:XMLElement	signature:( XMLDocument* doc )
+XMLElement::~XMLElement	./tinyxml2.cc	/^XMLElement::~XMLElement()$/;"	f	class:XMLElement	signature:()
+XMLNode	./tinyxml2.cc	/^XMLNode::XMLNode( XMLDocument* doc ) :$/;"	f	class:XMLNode	signature:( XMLDocument* doc )
+XMLNode	./tinyxml2.h	/^	XMLNode( XMLDocument* );$/;"	p	class:tinyxml2::XMLNode	access:protected	signature:( XMLDocument* )
+XMLNode	./tinyxml2.h	/^	XMLNode( const XMLNode& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLNode	access:protected	signature:( const XMLNode& )
+XMLNode	./tinyxml2.h	/^class XMLNode$/;"	c	namespace:tinyxml2
+XMLNode::DeleteChild	./tinyxml2.cc	/^void XMLNode::DeleteChild( XMLNode* node )$/;"	f	class:XMLNode	signature:( XMLNode* node )
+XMLNode::DeleteChildren	./tinyxml2.cc	/^void XMLNode::DeleteChildren()$/;"	f	class:XMLNode	signature:()
+XMLNode::FirstChildElement	./tinyxml2.cc	/^const XMLElement* XMLNode::FirstChildElement( const char* value ) const$/;"	f	class:XMLNode	signature:( const char* value ) const
+XMLNode::InsertAfterChild	./tinyxml2.cc	/^XMLNode* XMLNode::InsertAfterChild( XMLNode* afterThis, XMLNode* addThis )$/;"	f	class:XMLNode	signature:( XMLNode* afterThis, XMLNode* addThis )
+XMLNode::InsertEndChild	./tinyxml2.cc	/^XMLNode* XMLNode::InsertEndChild( XMLNode* addThis )$/;"	f	class:XMLNode	signature:( XMLNode* addThis )
+XMLNode::InsertFirstChild	./tinyxml2.cc	/^XMLNode* XMLNode::InsertFirstChild( XMLNode* addThis )$/;"	f	class:XMLNode	signature:( XMLNode* addThis )
+XMLNode::LastChildElement	./tinyxml2.cc	/^const XMLElement* XMLNode::LastChildElement( const char* value ) const$/;"	f	class:XMLNode	signature:( const char* value ) const
+XMLNode::NextSiblingElement	./tinyxml2.cc	/^const XMLElement* XMLNode::NextSiblingElement( const char* value ) const$/;"	f	class:XMLNode	signature:( const char* value ) const
+XMLNode::ParseDeep	./tinyxml2.cc	/^char* XMLNode::ParseDeep( char* p, StrPair* parentEnd )$/;"	f	class:XMLNode	signature:( char* p, StrPair* parentEnd )
+XMLNode::PreviousSiblingElement	./tinyxml2.cc	/^const XMLElement* XMLNode::PreviousSiblingElement( const char* value ) const$/;"	f	class:XMLNode	signature:( const char* value ) const
+XMLNode::SetValue	./tinyxml2.cc	/^void XMLNode::SetValue( const char* str, bool staticMem )$/;"	f	class:XMLNode	signature:( const char* str, bool staticMem )
+XMLNode::Unlink	./tinyxml2.cc	/^void XMLNode::Unlink( XMLNode* child )$/;"	f	class:XMLNode	signature:( XMLNode* child )
+XMLNode::XMLNode	./tinyxml2.cc	/^XMLNode::XMLNode( XMLDocument* doc ) :$/;"	f	class:XMLNode	signature:( XMLDocument* doc )
+XMLNode::~XMLNode	./tinyxml2.cc	/^XMLNode::~XMLNode()$/;"	f	class:XMLNode	signature:()
+XMLPrinter	./tinyxml2.cc	/^XMLPrinter::XMLPrinter( FILE* file ) : $/;"	f	class:XMLPrinter	signature:( FILE* file )
+XMLPrinter	./tinyxml2.h	/^	XMLPrinter( FILE* file=0 );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( FILE* file=0 )
+XMLPrinter	./tinyxml2.h	/^class XMLPrinter : public XMLVisitor$/;"	c	namespace:tinyxml2	inherits:XMLVisitor
+XMLPrinter::CloseElement	./tinyxml2.cc	/^void XMLPrinter::CloseElement()$/;"	f	class:XMLPrinter	signature:()
+XMLPrinter::OpenElement	./tinyxml2.cc	/^void XMLPrinter::OpenElement( const char* name )$/;"	f	class:XMLPrinter	signature:( const char* name )
+XMLPrinter::Print	./tinyxml2.cc	/^void XMLPrinter::Print( const char* format, ... )$/;"	f	class:XMLPrinter	signature:( const char* format, ... )
+XMLPrinter::PrintSpace	./tinyxml2.cc	/^void XMLPrinter::PrintSpace( int depth )$/;"	f	class:XMLPrinter	signature:( int depth )
+XMLPrinter::PrintString	./tinyxml2.cc	/^void XMLPrinter::PrintString( const char* p, bool restricted )$/;"	f	class:XMLPrinter	signature:( const char* p, bool restricted )
+XMLPrinter::PushAttribute	./tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, bool v )$/;"	f	class:XMLPrinter	signature:( const char* name, bool v )
+XMLPrinter::PushAttribute	./tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, const char* value )$/;"	f	class:XMLPrinter	signature:( const char* name, const char* value )
+XMLPrinter::PushAttribute	./tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, double v )$/;"	f	class:XMLPrinter	signature:( const char* name, double v )
+XMLPrinter::PushAttribute	./tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, int v )$/;"	f	class:XMLPrinter	signature:( const char* name, int v )
+XMLPrinter::PushAttribute	./tinyxml2.cc	/^void XMLPrinter::PushAttribute( const char* name, unsigned v )$/;"	f	class:XMLPrinter	signature:( const char* name, unsigned v )
+XMLPrinter::PushComment	./tinyxml2.cc	/^void XMLPrinter::PushComment( const char* comment )$/;"	f	class:XMLPrinter	signature:( const char* comment )
+XMLPrinter::PushDeclaration	./tinyxml2.cc	/^void XMLPrinter::PushDeclaration( const char* value )$/;"	f	class:XMLPrinter	signature:( const char* value )
+XMLPrinter::PushHeader	./tinyxml2.cc	/^void XMLPrinter::PushHeader( bool writeBOM, bool writeDec )$/;"	f	class:XMLPrinter	signature:( bool writeBOM, bool writeDec )
+XMLPrinter::PushText	./tinyxml2.cc	/^void XMLPrinter::PushText( const char* text, bool cdata )$/;"	f	class:XMLPrinter	signature:( const char* text, bool cdata )
+XMLPrinter::PushUnknown	./tinyxml2.cc	/^void XMLPrinter::PushUnknown( const char* value )$/;"	f	class:XMLPrinter	signature:( const char* value )
+XMLPrinter::SealElement	./tinyxml2.cc	/^void XMLPrinter::SealElement()$/;"	f	class:XMLPrinter	signature:()
+XMLPrinter::Visit	./tinyxml2.cc	/^bool XMLPrinter::Visit( const XMLComment& comment )$/;"	f	class:XMLPrinter	signature:( const XMLComment& comment )
+XMLPrinter::Visit	./tinyxml2.cc	/^bool XMLPrinter::Visit( const XMLDeclaration& declaration )$/;"	f	class:XMLPrinter	signature:( const XMLDeclaration& declaration )
+XMLPrinter::Visit	./tinyxml2.cc	/^bool XMLPrinter::Visit( const XMLText& text )$/;"	f	class:XMLPrinter	signature:( const XMLText& text )
+XMLPrinter::Visit	./tinyxml2.cc	/^bool XMLPrinter::Visit( const XMLUnknown& unknown )$/;"	f	class:XMLPrinter	signature:( const XMLUnknown& unknown )
+XMLPrinter::VisitEnter	./tinyxml2.cc	/^bool XMLPrinter::VisitEnter( const XMLDocument& doc )$/;"	f	class:XMLPrinter	signature:( const XMLDocument& doc )
+XMLPrinter::VisitEnter	./tinyxml2.cc	/^bool XMLPrinter::VisitEnter( const XMLElement& element, const XMLAttribute* attribute )$/;"	f	class:XMLPrinter	signature:( const XMLElement& element, const XMLAttribute* attribute )
+XMLPrinter::VisitExit	./tinyxml2.cc	/^bool XMLPrinter::VisitExit( const XMLElement& )$/;"	f	class:XMLPrinter	signature:( const XMLElement& )
+XMLPrinter::XMLPrinter	./tinyxml2.cc	/^XMLPrinter::XMLPrinter( FILE* file ) : $/;"	f	class:XMLPrinter	signature:( FILE* file )
+XMLText	./tinyxml2.h	/^	XMLText( XMLDocument* doc )	: XMLNode( doc ), isCData( false )	{}$/;"	f	class:tinyxml2::XMLText	access:protected	signature:( XMLDocument* doc )
+XMLText	./tinyxml2.h	/^	XMLText( const XMLText& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLText	access:protected	signature:( const XMLText& )
+XMLText	./tinyxml2.h	/^class XMLText : public XMLNode$/;"	c	namespace:tinyxml2	inherits:XMLNode
+XMLText::Accept	./tinyxml2.cc	/^bool XMLText::Accept( XMLVisitor* visitor ) const$/;"	f	class:XMLText	signature:( XMLVisitor* visitor ) const
+XMLText::ParseDeep	./tinyxml2.cc	/^char* XMLText::ParseDeep( char* p, StrPair* )$/;"	f	class:XMLText	signature:( char* p, StrPair* )
+XMLText::ShallowClone	./tinyxml2.cc	/^XMLNode* XMLText::ShallowClone( XMLDocument* doc ) const$/;"	f	class:XMLText	signature:( XMLDocument* doc ) const
+XMLText::ShallowEqual	./tinyxml2.cc	/^bool XMLText::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:XMLText	signature:( const XMLNode* compare ) const
+XMLUnknown	./tinyxml2.cc	/^XMLUnknown::XMLUnknown( XMLDocument* doc ) : XMLNode( doc )$/;"	f	class:XMLUnknown	signature:( XMLDocument* doc )
+XMLUnknown	./tinyxml2.h	/^	XMLUnknown( XMLDocument* doc );$/;"	p	class:tinyxml2::XMLUnknown	access:protected	signature:( XMLDocument* doc )
+XMLUnknown	./tinyxml2.h	/^	XMLUnknown( const XMLUnknown& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLUnknown	access:protected	signature:( const XMLUnknown& )
+XMLUnknown	./tinyxml2.h	/^class XMLUnknown : public XMLNode$/;"	c	namespace:tinyxml2	inherits:XMLNode
+XMLUnknown::Accept	./tinyxml2.cc	/^bool XMLUnknown::Accept( XMLVisitor* visitor ) const$/;"	f	class:XMLUnknown	signature:( XMLVisitor* visitor ) const
+XMLUnknown::ParseDeep	./tinyxml2.cc	/^char* XMLUnknown::ParseDeep( char* p, StrPair* )$/;"	f	class:XMLUnknown	signature:( char* p, StrPair* )
+XMLUnknown::ShallowClone	./tinyxml2.cc	/^XMLNode* XMLUnknown::ShallowClone( XMLDocument* doc ) const$/;"	f	class:XMLUnknown	signature:( XMLDocument* doc ) const
+XMLUnknown::ShallowEqual	./tinyxml2.cc	/^bool XMLUnknown::ShallowEqual( const XMLNode* compare ) const$/;"	f	class:XMLUnknown	signature:( const XMLNode* compare ) const
+XMLUnknown::XMLUnknown	./tinyxml2.cc	/^XMLUnknown::XMLUnknown( XMLDocument* doc ) : XMLNode( doc )$/;"	f	class:XMLUnknown	signature:( XMLDocument* doc )
+XMLUnknown::~XMLUnknown	./tinyxml2.cc	/^XMLUnknown::~XMLUnknown()$/;"	f	class:XMLUnknown	signature:()
+XMLUtil	./tinyxml2.h	/^class XMLUtil$/;"	c	namespace:tinyxml2
+XMLUtil::ConvertUTF32ToUTF8	./tinyxml2.cc	/^void XMLUtil::ConvertUTF32ToUTF8( unsigned long input, char* output, int* length )$/;"	f	class:XMLUtil	signature:( unsigned long input, char* output, int* length )
+XMLUtil::GetCharacterRef	./tinyxml2.cc	/^const char* XMLUtil::GetCharacterRef( const char* p, char* value, int* length )$/;"	f	class:XMLUtil	signature:( const char* p, char* value, int* length )
+XMLUtil::ReadBOM	./tinyxml2.cc	/^const char* XMLUtil::ReadBOM( const char* p, bool* bom )$/;"	f	class:XMLUtil	signature:( const char* p, bool* bom )
+XMLVisitor	./tinyxml2.h	/^class XMLVisitor$/;"	c	namespace:tinyxml2
+XML_ERROR_ELEMENT_MISMATCH	./tinyxml2.h	/^	XML_ERROR_ELEMENT_MISMATCH,$/;"	e	enum:tinyxml2::__anon4
+XML_ERROR_EMPTY_DOCUMENT	./tinyxml2.h	/^	XML_ERROR_EMPTY_DOCUMENT,$/;"	e	enum:tinyxml2::__anon4
+XML_ERROR_FILE_COULD_NOT_BE_OPENED	./tinyxml2.h	/^	XML_ERROR_FILE_COULD_NOT_BE_OPENED,$/;"	e	enum:tinyxml2::__anon4
+XML_ERROR_FILE_NOT_FOUND	./tinyxml2.h	/^	XML_ERROR_FILE_NOT_FOUND,$/;"	e	enum:tinyxml2::__anon4
+XML_ERROR_IDENTIFYING_TAG	./tinyxml2.h	/^	XML_ERROR_IDENTIFYING_TAG,$/;"	e	enum:tinyxml2::__anon4
+XML_ERROR_MISMATCHED_ELEMENT	./tinyxml2.h	/^	XML_ERROR_MISMATCHED_ELEMENT,$/;"	e	enum:tinyxml2::__anon4
+XML_ERROR_PARSING	./tinyxml2.h	/^	XML_ERROR_PARSING$/;"	e	enum:tinyxml2::__anon4
+XML_ERROR_PARSING_ATTRIBUTE	./tinyxml2.h	/^	XML_ERROR_PARSING_ATTRIBUTE,$/;"	e	enum:tinyxml2::__anon4
+XML_ERROR_PARSING_CDATA	./tinyxml2.h	/^	XML_ERROR_PARSING_CDATA,$/;"	e	enum:tinyxml2::__anon4
+XML_ERROR_PARSING_COMMENT	./tinyxml2.h	/^	XML_ERROR_PARSING_COMMENT,$/;"	e	enum:tinyxml2::__anon4
+XML_ERROR_PARSING_DECLARATION	./tinyxml2.h	/^	XML_ERROR_PARSING_DECLARATION,$/;"	e	enum:tinyxml2::__anon4
+XML_ERROR_PARSING_ELEMENT	./tinyxml2.h	/^	XML_ERROR_PARSING_ELEMENT,$/;"	e	enum:tinyxml2::__anon4
+XML_ERROR_PARSING_TEXT	./tinyxml2.h	/^	XML_ERROR_PARSING_TEXT,$/;"	e	enum:tinyxml2::__anon4
+XML_ERROR_PARSING_UNKNOWN	./tinyxml2.h	/^	XML_ERROR_PARSING_UNKNOWN,$/;"	e	enum:tinyxml2::__anon4
+XML_NO_ATTRIBUTE	./tinyxml2.h	/^	XML_NO_ATTRIBUTE,$/;"	e	enum:tinyxml2::__anon4
+XML_NO_ERROR	./tinyxml2.h	/^	XML_NO_ERROR = 0,$/;"	e	enum:tinyxml2::__anon4
+XML_SUCCESS	./tinyxml2.h	/^	XML_SUCCESS = 0,$/;"	e	enum:tinyxml2::__anon4
+XML_WRONG_ATTRIBUTE_TYPE	./tinyxml2.h	/^	XML_WRONG_ATTRIBUTE_TYPE,$/;"	e	enum:tinyxml2::__anon4
+accumulator	./tinyxml2.h	/^	DynArray< char, 20 > buffer, accumulator;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+allocated	./tinyxml2.h	/^	int allocated;		\/\/ objects allocated$/;"	m	class:tinyxml2::DynArray	access:private
+attributePool	./tinyxml2.h	/^	MemPoolT< sizeof(XMLAttribute) > attributePool;$/;"	m	class:tinyxml2::XMLDocument	access:private
+blockPtrs	./tinyxml2.h	/^	DynArray< Block*, 10 > blockPtrs;$/;"	m	class:tinyxml2::MemPoolT	access:private
+buffer	./tinyxml2.h	/^	DynArray< char, 20 > buffer, accumulator;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+charBuffer	./tinyxml2.h	/^	char* charBuffer;$/;"	m	class:tinyxml2::XMLDocument	access:private
+chunk	./tinyxml2.h	/^		Chunk chunk[COUNT];$/;"	m	struct:tinyxml2::MemPoolT::Block	access:public
+closingType	./tinyxml2.h	/^	int closingType;$/;"	m	class:tinyxml2::XMLElement	access:private
+commentPool	./tinyxml2.h	/^	MemPoolT< sizeof(XMLComment) >	commentPool;$/;"	m	class:tinyxml2::XMLDocument	access:private
+curl	./ATwit.h	/^		CURL *curl;$/;"	m	class:ATwit	access:private
+currentAllocs	./tinyxml2.h	/^	int currentAllocs;$/;"	m	class:tinyxml2::MemPoolT	access:private
+depth	./tinyxml2.h	/^	int depth;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+document	./tinyxml2.h	/^	XMLDocument*	document;$/;"	m	class:tinyxml2::XMLNode	access:protected
+elementJustOpened	./tinyxml2.h	/^	bool elementJustOpened;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+elementPool	./tinyxml2.h	/^	MemPoolT< sizeof(XMLElement) >	elementPool;$/;"	m	class:tinyxml2::XMLDocument	access:private
+end	./tinyxml2.h	/^	char* end;$/;"	m	class:tinyxml2::StrPair	access:private
+entities	./tinyxml2.cc	/^static const Entity entities[NUM_ENTITIES] = $/;"	v	file:
+entityFlag	./tinyxml2.h	/^	bool entityFlag[ENTITY_RANGE];$/;"	m	class:tinyxml2::XMLPrinter	access:private
+errorBuffer	./ATwit.h	/^static char errorBuffer[CURL_ERROR_SIZE]; $/;"	v
+errorID	./tinyxml2.h	/^	int errorID;$/;"	m	class:tinyxml2::XMLDocument	access:private
+errorStr1	./tinyxml2.h	/^	const char* errorStr1;$/;"	m	class:tinyxml2::XMLDocument	access:private
+errorStr2	./tinyxml2.h	/^	const char* errorStr2;$/;"	m	class:tinyxml2::XMLDocument	access:private
+firstChild	./tinyxml2.h	/^	XMLNode*		firstChild;$/;"	m	class:tinyxml2::XMLNode	access:protected
+firstElement	./tinyxml2.h	/^	bool firstElement;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+flags	./tinyxml2.h	/^	int flags;$/;"	m	class:tinyxml2::StrPair	access:private
+fp	./tinyxml2.h	/^	FILE* fp;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+getData	./ATwit.cc	/^void  ATwit::getData(string URL)$/;"	f	class:ATwit	signature:(string URL)
+getData	./ATwit.h	/^		void getData(string URL);$/;"	p	class:ATwit	access:public	signature:(string URL)
+isCData	./tinyxml2.h	/^	bool isCData;$/;"	m	class:tinyxml2::XMLText	access:private
+lastChild	./tinyxml2.h	/^	XMLNode*		lastChild;$/;"	m	class:tinyxml2::XMLNode	access:protected
+length	./tinyxml2.cc	/^	int length;$/;"	m	struct:Entity	file:	access:public
+maxAllocs	./tinyxml2.h	/^	int maxAllocs;$/;"	m	class:tinyxml2::MemPoolT	access:private
+mem	./tinyxml2.h	/^		char mem[SIZE];$/;"	m	union:tinyxml2::MemPoolT::Chunk	access:public
+mem	./tinyxml2.h	/^	T* mem;$/;"	m	class:tinyxml2::DynArray	access:private
+memPool	./tinyxml2.h	/^	MemPool*		memPool;$/;"	m	class:tinyxml2::XMLNode	access:private
+memPool	./tinyxml2.h	/^	MemPool* memPool;$/;"	m	class:tinyxml2::XMLAttribute	access:private
+nAllocs	./tinyxml2.h	/^	int nAllocs;$/;"	m	class:tinyxml2::MemPoolT	access:private
+name	./tinyxml2.h	/^	mutable StrPair name;$/;"	m	class:tinyxml2::XMLAttribute	access:private
+next	./tinyxml2.h	/^		Chunk* next;$/;"	m	union:tinyxml2::MemPoolT::Chunk	access:public
+next	./tinyxml2.h	/^	XMLAttribute* next;$/;"	m	class:tinyxml2::XMLAttribute	access:private
+next	./tinyxml2.h	/^	XMLNode*		next;$/;"	m	class:tinyxml2::XMLNode	access:protected
+operator =	./tinyxml2.h	/^	void operator=( const XMLAttribute& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLAttribute	access:private	signature:( const XMLAttribute& )
+operator =	./tinyxml2.h	/^	void operator=( const XMLComment& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLComment	access:protected	signature:( const XMLComment& )
+operator =	./tinyxml2.h	/^	void operator=( const XMLDeclaration& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLDeclaration	access:protected	signature:( const XMLDeclaration& )
+operator =	./tinyxml2.h	/^	void operator=( const XMLDocument& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLDocument	access:private	signature:( const XMLDocument& )
+operator =	./tinyxml2.h	/^	void operator=( const XMLElement& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( const XMLElement& )
+operator =	./tinyxml2.h	/^	void operator=( const XMLNode& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLNode	access:protected	signature:( const XMLNode& )
+operator =	./tinyxml2.h	/^	void operator=( const XMLText& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLText	access:protected	signature:( const XMLText& )
+operator =	./tinyxml2.h	/^	void operator=( const XMLUnknown& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLUnknown	access:protected	signature:( const XMLUnknown& )
+operator []	./tinyxml2.h	/^	T& operator[](int i)				{ TIXMLASSERT( i>= 0 && i < size ); return mem[i]; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:(int i)
+operator []	./tinyxml2.h	/^	const T& operator[](int i) const	{ TIXMLASSERT( i>= 0 && i < size ); return mem[i]; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:(int i) const
+parent	./tinyxml2.h	/^	XMLNode*		parent;$/;"	m	class:tinyxml2::XMLNode	access:protected
+parseData	./ATwit.cc	/^void ATwit::parseData()$/;"	f	class:ATwit	signature:()
+parseData	./ATwit.h	/^		void parseData();$/;"	p	class:ATwit	access:public	signature:()
+pattern	./tinyxml2.cc	/^	const char* pattern;$/;"	m	struct:Entity	file:	access:public
+pool	./tinyxml2.h	/^	T pool[INIT];$/;"	m	class:tinyxml2::DynArray	access:private
+prev	./tinyxml2.h	/^	XMLNode*		prev;$/;"	m	class:tinyxml2::XMLNode	access:protected
+processEntities	./tinyxml2.h	/^	bool processEntities;$/;"	m	class:tinyxml2::XMLDocument	access:private
+processEntities	./tinyxml2.h	/^	bool processEntities;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+restrictedEntityFlag	./tinyxml2.h	/^	bool restrictedEntityFlag[ENTITY_RANGE];$/;"	m	class:tinyxml2::XMLPrinter	access:private
+result	./ATwit.h	/^		CURLcode  result; $/;"	m	class:ATwit	access:private
+root	./tinyxml2.h	/^	Chunk* root;$/;"	m	class:tinyxml2::MemPoolT	access:private
+rootAttribute	./tinyxml2.h	/^	XMLAttribute* rootAttribute;$/;"	m	class:tinyxml2::XMLElement	access:private
+size	./tinyxml2.h	/^	int size;			\/\/ number objects in use$/;"	m	class:tinyxml2::DynArray	access:private
+stack	./tinyxml2.h	/^	DynArray< const char*, 10 > stack;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+start	./tinyxml2.h	/^	char* start;	$/;"	m	class:tinyxml2::StrPair	access:private
+textDepth	./tinyxml2.h	/^	int textDepth;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+textPool	./tinyxml2.h	/^	MemPoolT< sizeof(XMLText) >		textPool;$/;"	m	class:tinyxml2::XMLDocument	access:private
+theXML	./ATwit.h	/^		string theXML; $/;"	m	class:ATwit	access:private
+tinyxml2	./tinyxml2.h	/^namespace tinyxml2$/;"	n
+tinyxml2::DynArray	./tinyxml2.h	/^class DynArray$/;"	c	namespace:tinyxml2
+tinyxml2::DynArray::Capacity	./tinyxml2.h	/^	int Capacity() const				{ return allocated; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:() const
+tinyxml2::DynArray::DynArray	./tinyxml2.h	/^	DynArray< T, INIT >() $/;"	f	class:tinyxml2::DynArray	access:public	signature:()
+tinyxml2::DynArray::Empty	./tinyxml2.h	/^	bool Empty() const					{ return size == 0; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:() const
+tinyxml2::DynArray::EnsureCapacity	./tinyxml2.h	/^	void EnsureCapacity( int cap ) {$/;"	f	class:tinyxml2::DynArray	access:private	signature:( int cap )
+tinyxml2::DynArray::Mem	./tinyxml2.h	/^	T* Mem()							{ return mem; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:()
+tinyxml2::DynArray::Mem	./tinyxml2.h	/^	const T* Mem() const				{ return mem; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:() const
+tinyxml2::DynArray::Pop	./tinyxml2.h	/^	T Pop() {$/;"	f	class:tinyxml2::DynArray	access:public	signature:()
+tinyxml2::DynArray::PopArr	./tinyxml2.h	/^	void PopArr( int count ) $/;"	f	class:tinyxml2::DynArray	access:public	signature:( int count )
+tinyxml2::DynArray::Push	./tinyxml2.h	/^	void Push( T t )$/;"	f	class:tinyxml2::DynArray	access:public	signature:( T t )
+tinyxml2::DynArray::PushArr	./tinyxml2.h	/^	T* PushArr( int count )$/;"	f	class:tinyxml2::DynArray	access:public	signature:( int count )
+tinyxml2::DynArray::Size	./tinyxml2.h	/^	int Size() const					{ return size; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:() const
+tinyxml2::DynArray::allocated	./tinyxml2.h	/^	int allocated;		\/\/ objects allocated$/;"	m	class:tinyxml2::DynArray	access:private
+tinyxml2::DynArray::mem	./tinyxml2.h	/^	T* mem;$/;"	m	class:tinyxml2::DynArray	access:private
+tinyxml2::DynArray::operator []	./tinyxml2.h	/^	T& operator[](int i)				{ TIXMLASSERT( i>= 0 && i < size ); return mem[i]; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:(int i)
+tinyxml2::DynArray::operator []	./tinyxml2.h	/^	const T& operator[](int i) const	{ TIXMLASSERT( i>= 0 && i < size ); return mem[i]; }$/;"	f	class:tinyxml2::DynArray	access:public	signature:(int i) const
+tinyxml2::DynArray::pool	./tinyxml2.h	/^	T pool[INIT];$/;"	m	class:tinyxml2::DynArray	access:private
+tinyxml2::DynArray::size	./tinyxml2.h	/^	int size;			\/\/ number objects in use$/;"	m	class:tinyxml2::DynArray	access:private
+tinyxml2::DynArray::~DynArray	./tinyxml2.h	/^	~DynArray()$/;"	f	class:tinyxml2::DynArray	access:public	signature:()
+tinyxml2::MemPool	./tinyxml2.h	/^class MemPool$/;"	c	namespace:tinyxml2
+tinyxml2::MemPool::Alloc	./tinyxml2.h	/^	virtual void* Alloc() = 0;$/;"	p	class:tinyxml2::MemPool	access:public	signature:()
+tinyxml2::MemPool::Free	./tinyxml2.h	/^	virtual void Free( void* ) = 0; $/;"	p	class:tinyxml2::MemPool	access:public	signature:( void* )
+tinyxml2::MemPool::ItemSize	./tinyxml2.h	/^	virtual int ItemSize() const = 0;$/;"	p	class:tinyxml2::MemPool	access:public	signature:() const
+tinyxml2::MemPool::MemPool	./tinyxml2.h	/^	MemPool() {}$/;"	f	class:tinyxml2::MemPool	access:public	signature:()
+tinyxml2::MemPool::~MemPool	./tinyxml2.h	/^	virtual ~MemPool() {}$/;"	f	class:tinyxml2::MemPool	access:public	signature:()
+tinyxml2::MemPoolT	./tinyxml2.h	/^class MemPoolT : public MemPool$/;"	c	namespace:tinyxml2	inherits:MemPool
+tinyxml2::MemPoolT::Alloc	./tinyxml2.h	/^	virtual void* Alloc() {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:()
+tinyxml2::MemPoolT::Block	./tinyxml2.h	/^	struct Block {$/;"	s	class:tinyxml2::MemPoolT	access:private
+tinyxml2::MemPoolT::Block::chunk	./tinyxml2.h	/^		Chunk chunk[COUNT];$/;"	m	struct:tinyxml2::MemPoolT::Block	access:public
+tinyxml2::MemPoolT::COUNT	./tinyxml2.h	/^	enum { COUNT = 1024\/SIZE };$/;"	e	enum:tinyxml2::MemPoolT::__anon3
+tinyxml2::MemPoolT::Chunk	./tinyxml2.h	/^	union Chunk {$/;"	u	class:tinyxml2::MemPoolT	access:private
+tinyxml2::MemPoolT::Chunk::mem	./tinyxml2.h	/^		char mem[SIZE];$/;"	m	union:tinyxml2::MemPoolT::Chunk	access:public
+tinyxml2::MemPoolT::Chunk::next	./tinyxml2.h	/^		Chunk* next;$/;"	m	union:tinyxml2::MemPoolT::Chunk	access:public
+tinyxml2::MemPoolT::CurrentAllocs	./tinyxml2.h	/^	int CurrentAllocs() const		{ return currentAllocs; }$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:() const
+tinyxml2::MemPoolT::Free	./tinyxml2.h	/^	virtual void Free( void* mem ) {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:( void* mem )
+tinyxml2::MemPoolT::ItemSize	./tinyxml2.h	/^	virtual int ItemSize() const	{ return SIZE; }$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:() const
+tinyxml2::MemPoolT::MemPoolT	./tinyxml2.h	/^	MemPoolT() : root(0), currentAllocs(0), nAllocs(0), maxAllocs(0)	{}$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:()
+tinyxml2::MemPoolT::Trace	./tinyxml2.h	/^	void Trace( const char* name ) {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:( const char* name )
+tinyxml2::MemPoolT::blockPtrs	./tinyxml2.h	/^	DynArray< Block*, 10 > blockPtrs;$/;"	m	class:tinyxml2::MemPoolT	access:private
+tinyxml2::MemPoolT::currentAllocs	./tinyxml2.h	/^	int currentAllocs;$/;"	m	class:tinyxml2::MemPoolT	access:private
+tinyxml2::MemPoolT::maxAllocs	./tinyxml2.h	/^	int maxAllocs;$/;"	m	class:tinyxml2::MemPoolT	access:private
+tinyxml2::MemPoolT::nAllocs	./tinyxml2.h	/^	int nAllocs;$/;"	m	class:tinyxml2::MemPoolT	access:private
+tinyxml2::MemPoolT::root	./tinyxml2.h	/^	Chunk* root;$/;"	m	class:tinyxml2::MemPoolT	access:private
+tinyxml2::MemPoolT::~MemPoolT	./tinyxml2.h	/^	~MemPoolT() {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:()
+tinyxml2::StrPair	./tinyxml2.h	/^class StrPair$/;"	c	namespace:tinyxml2
+tinyxml2::StrPair::ATTRIBUTE_NAME	./tinyxml2.h	/^		ATTRIBUTE_NAME		= 0,$/;"	e	enum:tinyxml2::StrPair::__anon1
+tinyxml2::StrPair::ATTRIBUTE_VALUE	./tinyxml2.h	/^		ATTRIBUTE_VALUE		= NEEDS_ENTITY_PROCESSING | NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
+tinyxml2::StrPair::ATTRIBUTE_VALUE_LEAVE_ENTITIES	./tinyxml2.h	/^		ATTRIBUTE_VALUE_LEAVE_ENTITIES		= NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
+tinyxml2::StrPair::COMMENT	./tinyxml2.h	/^		COMMENT				= NEEDS_NEWLINE_NORMALIZATION$/;"	e	enum:tinyxml2::StrPair::__anon1
+tinyxml2::StrPair::Empty	./tinyxml2.h	/^	bool Empty() const { return start == end; }$/;"	f	class:tinyxml2::StrPair	access:public	signature:() const
+tinyxml2::StrPair::GetStr	./tinyxml2.h	/^	const char* GetStr();$/;"	p	class:tinyxml2::StrPair	access:public	signature:()
+tinyxml2::StrPair::NEEDS_DELETE	./tinyxml2.h	/^		NEEDS_DELETE = 0x200$/;"	e	enum:tinyxml2::StrPair::__anon2
+tinyxml2::StrPair::NEEDS_ENTITY_PROCESSING	./tinyxml2.h	/^		NEEDS_ENTITY_PROCESSING			= 0x01,$/;"	e	enum:tinyxml2::StrPair::__anon1
+tinyxml2::StrPair::NEEDS_FLUSH	./tinyxml2.h	/^		NEEDS_FLUSH = 0x100,$/;"	e	enum:tinyxml2::StrPair::__anon2
+tinyxml2::StrPair::NEEDS_NEWLINE_NORMALIZATION	./tinyxml2.h	/^		NEEDS_NEWLINE_NORMALIZATION		= 0x02,$/;"	e	enum:tinyxml2::StrPair::__anon1
+tinyxml2::StrPair::ParseName	./tinyxml2.h	/^	char* ParseName( char* in );$/;"	p	class:tinyxml2::StrPair	access:public	signature:( char* in )
+tinyxml2::StrPair::ParseText	./tinyxml2.h	/^	char* ParseText( char* in, const char* endTag, int strFlags );$/;"	p	class:tinyxml2::StrPair	access:public	signature:( char* in, const char* endTag, int strFlags )
+tinyxml2::StrPair::Reset	./tinyxml2.h	/^	void Reset();$/;"	p	class:tinyxml2::StrPair	access:private	signature:()
+tinyxml2::StrPair::Set	./tinyxml2.h	/^	void Set( char* _start, char* _end, int _flags ) {$/;"	f	class:tinyxml2::StrPair	access:public	signature:( char* _start, char* _end, int _flags )
+tinyxml2::StrPair::SetInternedStr	./tinyxml2.h	/^	void SetInternedStr( const char* str ) { Reset(); this->start = const_cast<char*>(str); }$/;"	f	class:tinyxml2::StrPair	access:public	signature:( const char* str )
+tinyxml2::StrPair::SetStr	./tinyxml2.h	/^	void SetStr( const char* str, int flags=0 );$/;"	p	class:tinyxml2::StrPair	access:public	signature:( const char* str, int flags=0 )
+tinyxml2::StrPair::StrPair	./tinyxml2.h	/^	StrPair() : flags( 0 ), start( 0 ), end( 0 ) {}$/;"	f	class:tinyxml2::StrPair	access:public	signature:()
+tinyxml2::StrPair::TEXT_ELEMENT	./tinyxml2.h	/^		TEXT_ELEMENT		= NEEDS_ENTITY_PROCESSING | NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
+tinyxml2::StrPair::TEXT_ELEMENT_LEAVE_ENTITIES	./tinyxml2.h	/^		TEXT_ELEMENT_LEAVE_ENTITIES		= NEEDS_NEWLINE_NORMALIZATION,$/;"	e	enum:tinyxml2::StrPair::__anon1
+tinyxml2::StrPair::end	./tinyxml2.h	/^	char* end;$/;"	m	class:tinyxml2::StrPair	access:private
+tinyxml2::StrPair::flags	./tinyxml2.h	/^	int flags;$/;"	m	class:tinyxml2::StrPair	access:private
+tinyxml2::StrPair::start	./tinyxml2.h	/^	char* start;	$/;"	m	class:tinyxml2::StrPair	access:private
+tinyxml2::StrPair::~StrPair	./tinyxml2.h	/^	~StrPair();$/;"	p	class:tinyxml2::StrPair	access:public	signature:()
+tinyxml2::XMLAttribute	./tinyxml2.h	/^class XMLAttribute$/;"	c	namespace:tinyxml2
+tinyxml2::XMLAttribute::BUF_SIZE	./tinyxml2.h	/^	enum { BUF_SIZE = 200 };$/;"	e	enum:tinyxml2::XMLAttribute::__anon5
+tinyxml2::XMLAttribute::BoolValue	./tinyxml2.h	/^	bool	 BoolValue() const				{ bool b=false; QueryBoolValue( &b );		return b; }$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+tinyxml2::XMLAttribute::DoubleValue	./tinyxml2.h	/^	double 	 DoubleValue() const			{ double d=0;	QueryDoubleValue( &d );		return d; }$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+tinyxml2::XMLAttribute::FloatValue	./tinyxml2.h	/^	float	 FloatValue() const				{ float f=0;	QueryFloatValue( &f );		return f; }$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+tinyxml2::XMLAttribute::IntValue	./tinyxml2.h	/^	int		 IntValue() const				{ int i=0;		QueryIntValue( &i );		return i; }$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+tinyxml2::XMLAttribute::Name	./tinyxml2.h	/^	const char* Name() const { return name.GetStr(); }			\/\/\/< The name of the attribute.$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+tinyxml2::XMLAttribute::Next	./tinyxml2.h	/^	const XMLAttribute* Next() const { return next; }			\/\/\/< The next attribute in the list.$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+tinyxml2::XMLAttribute::ParseDeep	./tinyxml2.h	/^	char* ParseDeep( char* p, bool processEntities );$/;"	p	class:tinyxml2::XMLAttribute	access:private	signature:( char* p, bool processEntities )
+tinyxml2::XMLAttribute::QueryBoolValue	./tinyxml2.h	/^	int QueryBoolValue( bool* value ) const;$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( bool* value ) const
+tinyxml2::XMLAttribute::QueryDoubleValue	./tinyxml2.h	/^	int QueryDoubleValue( double* value ) const;$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( double* value ) const
+tinyxml2::XMLAttribute::QueryFloatValue	./tinyxml2.h	/^	int QueryFloatValue( float* value ) const;$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( float* value ) const
+tinyxml2::XMLAttribute::QueryIntValue	./tinyxml2.h	/^	int QueryIntValue( int* value ) const;$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( int* value ) const
+tinyxml2::XMLAttribute::QueryUnsignedValue	./tinyxml2.h	/^	int QueryUnsignedValue( unsigned int* value ) const;$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( unsigned int* value ) const
+tinyxml2::XMLAttribute::SetAttribute	./tinyxml2.h	/^	void SetAttribute( bool value );$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( bool value )
+tinyxml2::XMLAttribute::SetAttribute	./tinyxml2.h	/^	void SetAttribute( const char* value );$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( const char* value )
+tinyxml2::XMLAttribute::SetAttribute	./tinyxml2.h	/^	void SetAttribute( double value );$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( double value )
+tinyxml2::XMLAttribute::SetAttribute	./tinyxml2.h	/^	void SetAttribute( float value );$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( float value )
+tinyxml2::XMLAttribute::SetAttribute	./tinyxml2.h	/^	void SetAttribute( int value );$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( int value )
+tinyxml2::XMLAttribute::SetAttribute	./tinyxml2.h	/^	void SetAttribute( unsigned value );$/;"	p	class:tinyxml2::XMLAttribute	access:public	signature:( unsigned value )
+tinyxml2::XMLAttribute::SetName	./tinyxml2.h	/^	void SetName( const char* name );$/;"	p	class:tinyxml2::XMLAttribute	access:private	signature:( const char* name )
+tinyxml2::XMLAttribute::UnsignedValue	./tinyxml2.h	/^	unsigned UnsignedValue() const			{ unsigned i=0; QueryUnsignedValue( &i );	return i; }$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+tinyxml2::XMLAttribute::Value	./tinyxml2.h	/^	const char* Value() const { return value.GetStr(); }		\/\/\/< The value of the attribute.$/;"	f	class:tinyxml2::XMLAttribute	access:public	signature:() const
+tinyxml2::XMLAttribute::XMLAttribute	./tinyxml2.h	/^	XMLAttribute( const XMLAttribute& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLAttribute	access:private	signature:( const XMLAttribute& )
+tinyxml2::XMLAttribute::XMLAttribute	./tinyxml2.h	/^	XMLAttribute() : next( 0 ) {}$/;"	f	class:tinyxml2::XMLAttribute	access:private	signature:()
+tinyxml2::XMLAttribute::memPool	./tinyxml2.h	/^	MemPool* memPool;$/;"	m	class:tinyxml2::XMLAttribute	access:private
+tinyxml2::XMLAttribute::name	./tinyxml2.h	/^	mutable StrPair name;$/;"	m	class:tinyxml2::XMLAttribute	access:private
+tinyxml2::XMLAttribute::next	./tinyxml2.h	/^	XMLAttribute* next;$/;"	m	class:tinyxml2::XMLAttribute	access:private
+tinyxml2::XMLAttribute::operator =	./tinyxml2.h	/^	void operator=( const XMLAttribute& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLAttribute	access:private	signature:( const XMLAttribute& )
+tinyxml2::XMLAttribute::value	./tinyxml2.h	/^	mutable StrPair value;$/;"	m	class:tinyxml2::XMLAttribute	access:private
+tinyxml2::XMLAttribute::~XMLAttribute	./tinyxml2.h	/^	virtual ~XMLAttribute()	{}$/;"	f	class:tinyxml2::XMLAttribute	access:private	signature:()
+tinyxml2::XMLComment	./tinyxml2.h	/^class XMLComment : public XMLNode$/;"	c	namespace:tinyxml2	inherits:XMLNode
+tinyxml2::XMLComment::Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLComment	access:public	signature:( XMLVisitor* visitor ) const
+tinyxml2::XMLComment::ParseDeep	./tinyxml2.h	/^	char* ParseDeep( char*, StrPair* endTag );$/;"	p	class:tinyxml2::XMLComment	access:public	signature:( char*, StrPair* endTag )
+tinyxml2::XMLComment::ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* document ) const;$/;"	p	class:tinyxml2::XMLComment	access:public	signature:( XMLDocument* document ) const
+tinyxml2::XMLComment::ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* compare ) const;$/;"	p	class:tinyxml2::XMLComment	access:public	signature:( const XMLNode* compare ) const
+tinyxml2::XMLComment::ToComment	./tinyxml2.h	/^	virtual XMLComment*	ToComment()					{ return this; }$/;"	f	class:tinyxml2::XMLComment	access:public	signature:()
+tinyxml2::XMLComment::ToComment	./tinyxml2.h	/^	virtual const XMLComment* ToComment() const		{ return this; }$/;"	f	class:tinyxml2::XMLComment	access:public	signature:() const
+tinyxml2::XMLComment::XMLComment	./tinyxml2.h	/^	XMLComment( XMLDocument* doc );$/;"	p	class:tinyxml2::XMLComment	access:protected	signature:( XMLDocument* doc )
+tinyxml2::XMLComment::XMLComment	./tinyxml2.h	/^	XMLComment( const XMLComment& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLComment	access:protected	signature:( const XMLComment& )
+tinyxml2::XMLComment::operator =	./tinyxml2.h	/^	void operator=( const XMLComment& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLComment	access:protected	signature:( const XMLComment& )
+tinyxml2::XMLComment::~XMLComment	./tinyxml2.h	/^	virtual ~XMLComment();$/;"	p	class:tinyxml2::XMLComment	access:protected	signature:()
+tinyxml2::XMLDeclaration	./tinyxml2.h	/^class XMLDeclaration : public XMLNode$/;"	c	namespace:tinyxml2	inherits:XMLNode
+tinyxml2::XMLDeclaration::Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLDeclaration	access:public	signature:( XMLVisitor* visitor ) const
+tinyxml2::XMLDeclaration::ParseDeep	./tinyxml2.h	/^	char* ParseDeep( char*, StrPair* endTag );$/;"	p	class:tinyxml2::XMLDeclaration	access:public	signature:( char*, StrPair* endTag )
+tinyxml2::XMLDeclaration::ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* document ) const;$/;"	p	class:tinyxml2::XMLDeclaration	access:public	signature:( XMLDocument* document ) const
+tinyxml2::XMLDeclaration::ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* compare ) const;$/;"	p	class:tinyxml2::XMLDeclaration	access:public	signature:( const XMLNode* compare ) const
+tinyxml2::XMLDeclaration::ToDeclaration	./tinyxml2.h	/^	virtual XMLDeclaration*	ToDeclaration()					{ return this; }$/;"	f	class:tinyxml2::XMLDeclaration	access:public	signature:()
+tinyxml2::XMLDeclaration::ToDeclaration	./tinyxml2.h	/^	virtual const XMLDeclaration* ToDeclaration() const		{ return this; }$/;"	f	class:tinyxml2::XMLDeclaration	access:public	signature:() const
+tinyxml2::XMLDeclaration::XMLDeclaration	./tinyxml2.h	/^	XMLDeclaration( XMLDocument* doc );$/;"	p	class:tinyxml2::XMLDeclaration	access:protected	signature:( XMLDocument* doc )
+tinyxml2::XMLDeclaration::XMLDeclaration	./tinyxml2.h	/^	XMLDeclaration( const XMLDeclaration& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLDeclaration	access:protected	signature:( const XMLDeclaration& )
+tinyxml2::XMLDeclaration::operator =	./tinyxml2.h	/^	void operator=( const XMLDeclaration& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLDeclaration	access:protected	signature:( const XMLDeclaration& )
+tinyxml2::XMLDeclaration::~XMLDeclaration	./tinyxml2.h	/^	virtual ~XMLDeclaration();$/;"	p	class:tinyxml2::XMLDeclaration	access:protected	signature:()
+tinyxml2::XMLDocument	./tinyxml2.h	/^class XMLDocument : public XMLNode$/;"	c	namespace:tinyxml2	inherits:XMLNode
+tinyxml2::XMLDocument::Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( XMLVisitor* visitor ) const
+tinyxml2::XMLDocument::DeleteNode	./tinyxml2.h	/^	void DeleteNode( XMLNode* node )	{ node->parent->DeleteChild( node ); }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:( XMLNode* node )
+tinyxml2::XMLDocument::Error	./tinyxml2.h	/^	bool Error() const { return errorID != XML_NO_ERROR; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+tinyxml2::XMLDocument::ErrorID	./tinyxml2.h	/^	int  ErrorID() const { return errorID; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+tinyxml2::XMLDocument::GetErrorStr1	./tinyxml2.h	/^	const char* GetErrorStr1() const { return errorStr1; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+tinyxml2::XMLDocument::GetErrorStr2	./tinyxml2.h	/^	const char* GetErrorStr2() const { return errorStr2; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+tinyxml2::XMLDocument::HasBOM	./tinyxml2.h	/^	bool HasBOM() const { return writeBOM; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+tinyxml2::XMLDocument::Identify	./tinyxml2.h	/^	char* Identify( char* p, XMLNode** node );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( char* p, XMLNode** node )
+tinyxml2::XMLDocument::InitDocument	./tinyxml2.h	/^	void InitDocument();$/;"	p	class:tinyxml2::XMLDocument	access:private	signature:()
+tinyxml2::XMLDocument::LoadFile	./tinyxml2.h	/^	int LoadFile( FILE* );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( FILE* )
+tinyxml2::XMLDocument::LoadFile	./tinyxml2.h	/^	int LoadFile( const char* filename );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* filename )
+tinyxml2::XMLDocument::NewComment	./tinyxml2.h	/^	XMLComment* NewComment( const char* comment );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* comment )
+tinyxml2::XMLDocument::NewDeclaration	./tinyxml2.h	/^	XMLDeclaration* NewDeclaration( const char* text );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* text )
+tinyxml2::XMLDocument::NewElement	./tinyxml2.h	/^	XMLElement* NewElement( const char* name );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* name )
+tinyxml2::XMLDocument::NewText	./tinyxml2.h	/^	XMLText* NewText( const char* text );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* text )
+tinyxml2::XMLDocument::NewUnknown	./tinyxml2.h	/^	XMLUnknown* NewUnknown( const char* text );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* text )
+tinyxml2::XMLDocument::Parse	./tinyxml2.h	/^	int Parse( const char* xml );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* xml )
+tinyxml2::XMLDocument::Print	./tinyxml2.h	/^	void Print( XMLPrinter* streamer=0 );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( XMLPrinter* streamer=0 )
+tinyxml2::XMLDocument::PrintError	./tinyxml2.h	/^	void PrintError() const;$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:() const
+tinyxml2::XMLDocument::ProcessEntities	./tinyxml2.h	/^	bool ProcessEntities() const						{ return processEntities; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+tinyxml2::XMLDocument::RootElement	./tinyxml2.h	/^	XMLElement* RootElement()				{ return FirstChildElement(); }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:()
+tinyxml2::XMLDocument::RootElement	./tinyxml2.h	/^	const XMLElement* RootElement() const	{ return FirstChildElement(); }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+tinyxml2::XMLDocument::SaveFile	./tinyxml2.h	/^	void SaveFile( const char* filename );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( const char* filename )
+tinyxml2::XMLDocument::SetError	./tinyxml2.h	/^	void SetError( int error, const char* str1, const char* str2 );$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( int error, const char* str1, const char* str2 )
+tinyxml2::XMLDocument::ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* \/*document*\/ ) const	{ return 0; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:( XMLDocument* ) const
+tinyxml2::XMLDocument::ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* \/*compare*\/ ) const	{ return false; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:( const XMLNode* ) const
+tinyxml2::XMLDocument::ToDocument	./tinyxml2.h	/^	virtual XMLDocument* ToDocument()				{ return this; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:()
+tinyxml2::XMLDocument::ToDocument	./tinyxml2.h	/^	virtual const XMLDocument* ToDocument() const	{ return this; }$/;"	f	class:tinyxml2::XMLDocument	access:public	signature:() const
+tinyxml2::XMLDocument::XMLDocument	./tinyxml2.h	/^	XMLDocument( bool processEntities = true ); $/;"	p	class:tinyxml2::XMLDocument	access:public	signature:( bool processEntities = true )
+tinyxml2::XMLDocument::XMLDocument	./tinyxml2.h	/^	XMLDocument( const XMLDocument& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLDocument	access:private	signature:( const XMLDocument& )
+tinyxml2::XMLDocument::attributePool	./tinyxml2.h	/^	MemPoolT< sizeof(XMLAttribute) > attributePool;$/;"	m	class:tinyxml2::XMLDocument	access:private
+tinyxml2::XMLDocument::charBuffer	./tinyxml2.h	/^	char* charBuffer;$/;"	m	class:tinyxml2::XMLDocument	access:private
+tinyxml2::XMLDocument::commentPool	./tinyxml2.h	/^	MemPoolT< sizeof(XMLComment) >	commentPool;$/;"	m	class:tinyxml2::XMLDocument	access:private
+tinyxml2::XMLDocument::elementPool	./tinyxml2.h	/^	MemPoolT< sizeof(XMLElement) >	elementPool;$/;"	m	class:tinyxml2::XMLDocument	access:private
+tinyxml2::XMLDocument::errorID	./tinyxml2.h	/^	int errorID;$/;"	m	class:tinyxml2::XMLDocument	access:private
+tinyxml2::XMLDocument::errorStr1	./tinyxml2.h	/^	const char* errorStr1;$/;"	m	class:tinyxml2::XMLDocument	access:private
+tinyxml2::XMLDocument::errorStr2	./tinyxml2.h	/^	const char* errorStr2;$/;"	m	class:tinyxml2::XMLDocument	access:private
+tinyxml2::XMLDocument::operator =	./tinyxml2.h	/^	void operator=( const XMLDocument& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLDocument	access:private	signature:( const XMLDocument& )
+tinyxml2::XMLDocument::processEntities	./tinyxml2.h	/^	bool processEntities;$/;"	m	class:tinyxml2::XMLDocument	access:private
+tinyxml2::XMLDocument::textPool	./tinyxml2.h	/^	MemPoolT< sizeof(XMLText) >		textPool;$/;"	m	class:tinyxml2::XMLDocument	access:private
+tinyxml2::XMLDocument::writeBOM	./tinyxml2.h	/^	bool writeBOM;$/;"	m	class:tinyxml2::XMLDocument	access:private
+tinyxml2::XMLDocument::~XMLDocument	./tinyxml2.h	/^	~XMLDocument();$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:()
+tinyxml2::XMLElement	./tinyxml2.h	/^class XMLElement : public XMLNode$/;"	c	namespace:tinyxml2	inherits:XMLNode
+tinyxml2::XMLElement::Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( XMLVisitor* visitor ) const
+tinyxml2::XMLElement::Attribute	./tinyxml2.h	/^	const char* Attribute( const char* name, const char* value=0 ) const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( const char* name, const char* value=0 ) const
+tinyxml2::XMLElement::BoolAttribute	./tinyxml2.h	/^	bool	 BoolAttribute( const char* name ) const	{ bool b=false; QueryBoolAttribute( name, &b );		return b; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+tinyxml2::XMLElement::CLOSED	./tinyxml2.h	/^		CLOSED,		\/\/ <foo\/>$/;"	e	enum:tinyxml2::XMLElement::__anon6
+tinyxml2::XMLElement::CLOSING	./tinyxml2.h	/^		CLOSING		\/\/ <\/foo>$/;"	e	enum:tinyxml2::XMLElement::__anon6
+tinyxml2::XMLElement::ClosingType	./tinyxml2.h	/^	int ClosingType() const { return closingType; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:() const
+tinyxml2::XMLElement::DeleteAttribute	./tinyxml2.h	/^	void DeleteAttribute( const char* name );$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( const char* name )
+tinyxml2::XMLElement::DoubleAttribute	./tinyxml2.h	/^	double 	 DoubleAttribute( const char* name ) const	{ double d=0;	QueryDoubleAttribute( name, &d );		return d; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+tinyxml2::XMLElement::FindAttribute	./tinyxml2.h	/^	XMLAttribute* FindAttribute( const char* name );$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( const char* name )
+tinyxml2::XMLElement::FindAttribute	./tinyxml2.h	/^	const XMLAttribute* FindAttribute( const char* name ) const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+tinyxml2::XMLElement::FindOrCreateAttribute	./tinyxml2.h	/^	XMLAttribute* FindOrCreateAttribute( const char* name );$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( const char* name )
+tinyxml2::XMLElement::FirstAttribute	./tinyxml2.h	/^	const XMLAttribute* FirstAttribute() const { return rootAttribute; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:() const
+tinyxml2::XMLElement::FloatAttribute	./tinyxml2.h	/^	float	 FloatAttribute( const char* name ) const	{ float f=0;	QueryFloatAttribute( name, &f );		return f; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+tinyxml2::XMLElement::GetText	./tinyxml2.h	/^	const char* GetText() const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:() const
+tinyxml2::XMLElement::IntAttribute	./tinyxml2.h	/^	int		 IntAttribute( const char* name ) const		{ int i=0;		QueryIntAttribute( name, &i );		return i; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+tinyxml2::XMLElement::LinkAttribute	./tinyxml2.h	/^	void LinkAttribute( XMLAttribute* attrib );$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( XMLAttribute* attrib )
+tinyxml2::XMLElement::Name	./tinyxml2.h	/^	const char* Name() const		{ return Value(); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:() const
+tinyxml2::XMLElement::OPEN	./tinyxml2.h	/^		OPEN,		\/\/ <foo>$/;"	e	enum:tinyxml2::XMLElement::__anon6
+tinyxml2::XMLElement::ParseAttributes	./tinyxml2.h	/^	char* ParseAttributes( char* p );$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( char* p )
+tinyxml2::XMLElement::ParseDeep	./tinyxml2.h	/^	char* ParseDeep( char* p, StrPair* endTag );$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( char* p, StrPair* endTag )
+tinyxml2::XMLElement::QueryBoolAttribute	./tinyxml2.h	/^	int QueryBoolAttribute( const char* name, bool* _value ) const				{ const XMLAttribute* a = FindAttribute( name ); if ( !a ) return XML_NO_ATTRIBUTE; return a->QueryBoolValue( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, bool* _value ) const
+tinyxml2::XMLElement::QueryDoubleAttribute	./tinyxml2.h	/^	int QueryDoubleAttribute( const char* name, double* _value ) const			{ const XMLAttribute* a = FindAttribute( name ); if ( !a ) return XML_NO_ATTRIBUTE; return a->QueryDoubleValue( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, double* _value ) const
+tinyxml2::XMLElement::QueryFloatAttribute	./tinyxml2.h	/^	int QueryFloatAttribute( const char* name, float* _value ) const				{ const XMLAttribute* a = FindAttribute( name ); if ( !a ) return XML_NO_ATTRIBUTE; return a->QueryFloatValue( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, float* _value ) const
+tinyxml2::XMLElement::QueryIntAttribute	./tinyxml2.h	/^	int QueryIntAttribute( const char* name, int* _value ) const					{ const XMLAttribute* a = FindAttribute( name ); if ( !a ) return XML_NO_ATTRIBUTE; return a->QueryIntValue( _value ); } $/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, int* _value ) const
+tinyxml2::XMLElement::QueryUnsignedAttribute	./tinyxml2.h	/^	int QueryUnsignedAttribute( const char* name, unsigned int* _value ) const	{ const XMLAttribute* a = FindAttribute( name ); if ( !a ) return XML_NO_ATTRIBUTE; return a->QueryUnsignedValue( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, unsigned int* _value ) const
+tinyxml2::XMLElement::SetAttribute	./tinyxml2.h	/^	void SetAttribute( const char* name, bool _value )			{ XMLAttribute* a = FindOrCreateAttribute( name ); a->SetAttribute( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, bool _value )
+tinyxml2::XMLElement::SetAttribute	./tinyxml2.h	/^	void SetAttribute( const char* name, const char* _value )	{ XMLAttribute* a = FindOrCreateAttribute( name ); a->SetAttribute( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, const char* _value )
+tinyxml2::XMLElement::SetAttribute	./tinyxml2.h	/^	void SetAttribute( const char* name, double _value )			{ XMLAttribute* a = FindOrCreateAttribute( name ); a->SetAttribute( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, double _value )
+tinyxml2::XMLElement::SetAttribute	./tinyxml2.h	/^	void SetAttribute( const char* name, int _value )			{ XMLAttribute* a = FindOrCreateAttribute( name ); a->SetAttribute( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, int _value )
+tinyxml2::XMLElement::SetAttribute	./tinyxml2.h	/^	void SetAttribute( const char* name, unsigned _value )		{ XMLAttribute* a = FindOrCreateAttribute( name ); a->SetAttribute( _value ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name, unsigned _value )
+tinyxml2::XMLElement::SetName	./tinyxml2.h	/^	void SetName( const char* str, bool staticMem=false )	{ SetValue( str, staticMem ); }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* str, bool staticMem=false )
+tinyxml2::XMLElement::ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* document ) const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( XMLDocument* document ) const
+tinyxml2::XMLElement::ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* compare ) const;$/;"	p	class:tinyxml2::XMLElement	access:public	signature:( const XMLNode* compare ) const
+tinyxml2::XMLElement::ToElement	./tinyxml2.h	/^	virtual XMLElement* ToElement()				{ return this; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:()
+tinyxml2::XMLElement::ToElement	./tinyxml2.h	/^	virtual const XMLElement* ToElement() const { return this; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:() const
+tinyxml2::XMLElement::UnsignedAttribute	./tinyxml2.h	/^	unsigned UnsignedAttribute( const char* name ) const{ unsigned i=0; QueryUnsignedAttribute( name, &i ); return i; }$/;"	f	class:tinyxml2::XMLElement	access:public	signature:( const char* name ) const
+tinyxml2::XMLElement::XMLElement	./tinyxml2.h	/^	XMLElement( XMLDocument* doc );$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( XMLDocument* doc )
+tinyxml2::XMLElement::XMLElement	./tinyxml2.h	/^	XMLElement( const XMLElement& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( const XMLElement& )
+tinyxml2::XMLElement::closingType	./tinyxml2.h	/^	int closingType;$/;"	m	class:tinyxml2::XMLElement	access:private
+tinyxml2::XMLElement::operator =	./tinyxml2.h	/^	void operator=( const XMLElement& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLElement	access:private	signature:( const XMLElement& )
+tinyxml2::XMLElement::rootAttribute	./tinyxml2.h	/^	XMLAttribute* rootAttribute;$/;"	m	class:tinyxml2::XMLElement	access:private
+tinyxml2::XMLElement::~XMLElement	./tinyxml2.h	/^	virtual ~XMLElement();$/;"	p	class:tinyxml2::XMLElement	access:private	signature:()
+tinyxml2::XMLNode	./tinyxml2.h	/^class XMLNode$/;"	c	namespace:tinyxml2
+tinyxml2::XMLNode::Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const = 0;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLVisitor* visitor ) const
+tinyxml2::XMLNode::DeleteChild	./tinyxml2.h	/^	void DeleteChild( XMLNode* node );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLNode* node )
+tinyxml2::XMLNode::DeleteChildren	./tinyxml2.h	/^	void DeleteChildren();$/;"	p	class:tinyxml2::XMLNode	access:public	signature:()
+tinyxml2::XMLNode::FirstChild	./tinyxml2.h	/^	XMLNode*		FirstChild()			{ return firstChild; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+tinyxml2::XMLNode::FirstChild	./tinyxml2.h	/^	const XMLNode*  FirstChild() const		{ return firstChild; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::FirstChildElement	./tinyxml2.h	/^	XMLElement* FirstChildElement( const char* _value=0 )	{ return const_cast<XMLElement*>(const_cast<const XMLNode*>(this)->FirstChildElement( _value )); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:( const char* _value=0 )
+tinyxml2::XMLNode::FirstChildElement	./tinyxml2.h	/^	const XMLElement* FirstChildElement( const char* value=0 ) const;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const char* value=0 ) const
+tinyxml2::XMLNode::GetDocument	./tinyxml2.h	/^	XMLDocument* GetDocument()				{ return document; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+tinyxml2::XMLNode::GetDocument	./tinyxml2.h	/^	const XMLDocument* GetDocument() const	{ return document; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::InsertAfterChild	./tinyxml2.h	/^	XMLNode* InsertAfterChild( XMLNode* afterThis, XMLNode* addThis );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLNode* afterThis, XMLNode* addThis )
+tinyxml2::XMLNode::InsertEndChild	./tinyxml2.h	/^	XMLNode* InsertEndChild( XMLNode* addThis );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLNode* addThis )
+tinyxml2::XMLNode::InsertFirstChild	./tinyxml2.h	/^	XMLNode* InsertFirstChild( XMLNode* addThis );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLNode* addThis )
+tinyxml2::XMLNode::LastChild	./tinyxml2.h	/^	XMLNode*		LastChild()								{ return const_cast<XMLNode*>(const_cast<const XMLNode*>(this)->LastChild() ); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+tinyxml2::XMLNode::LastChild	./tinyxml2.h	/^	const XMLNode*	LastChild() const						{ return lastChild; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::LastChildElement	./tinyxml2.h	/^	XMLElement* LastChildElement( const char* _value=0 )	{ return const_cast<XMLElement*>(const_cast<const XMLNode*>(this)->LastChildElement(_value) ); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:( const char* _value=0 )
+tinyxml2::XMLNode::LastChildElement	./tinyxml2.h	/^	const XMLElement* LastChildElement( const char* value=0 ) const;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const char* value=0 ) const
+tinyxml2::XMLNode::LinkEndChild	./tinyxml2.h	/^	XMLNode* LinkEndChild( XMLNode* addThis )	{ return InsertEndChild( addThis ); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:( XMLNode* addThis )
+tinyxml2::XMLNode::NextSibling	./tinyxml2.h	/^	XMLNode*	NextSibling()								{ return next; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+tinyxml2::XMLNode::NextSibling	./tinyxml2.h	/^	const XMLNode*	NextSibling() const						{ return next; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::NextSiblingElement	./tinyxml2.h	/^	const XMLElement*	NextSiblingElement( const char* value=0 ) const;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const char* value=0 ) const
+tinyxml2::XMLNode::NextSiblingElement	./tinyxml2.h	/^ 	XMLElement*	NextSiblingElement( const char* _value=0 )	{ return const_cast<XMLElement*>(const_cast<const XMLNode*>(this)->NextSiblingElement( _value ) ); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:( const char* _value=0 )
+tinyxml2::XMLNode::NoChildren	./tinyxml2.h	/^	bool NoChildren() const					{ return !firstChild; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::Parent	./tinyxml2.h	/^	XMLNode* Parent()						{ return parent; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+tinyxml2::XMLNode::Parent	./tinyxml2.h	/^	const XMLNode*	Parent() const			{ return parent; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::ParseDeep	./tinyxml2.h	/^	virtual char* ParseDeep( char*, StrPair* );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( char*, StrPair* )
+tinyxml2::XMLNode::PreviousSibling	./tinyxml2.h	/^	XMLNode*	PreviousSibling()							{ return prev; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+tinyxml2::XMLNode::PreviousSibling	./tinyxml2.h	/^	const XMLNode*	PreviousSibling() const					{ return prev; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::PreviousSiblingElement	./tinyxml2.h	/^	XMLElement*	PreviousSiblingElement( const char* _value=0 ) { return const_cast<XMLElement*>(const_cast<const XMLNode*>(this)->PreviousSiblingElement( _value ) ); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:( const char* _value=0 )
+tinyxml2::XMLNode::PreviousSiblingElement	./tinyxml2.h	/^	const XMLElement*	PreviousSiblingElement( const char* value=0 ) const ;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const char* value=0 ) const
+tinyxml2::XMLNode::SetValue	./tinyxml2.h	/^	void SetValue( const char* val, bool staticMem=false );$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const char* val, bool staticMem=false )
+tinyxml2::XMLNode::ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* document ) const = 0;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( XMLDocument* document ) const
+tinyxml2::XMLNode::ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* compare ) const = 0;$/;"	p	class:tinyxml2::XMLNode	access:public	signature:( const XMLNode* compare ) const
+tinyxml2::XMLNode::ToComment	./tinyxml2.h	/^	virtual XMLComment*		ToComment()		{ return 0; }	\/\/\/< Safely cast to a Comment, or null.$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+tinyxml2::XMLNode::ToComment	./tinyxml2.h	/^	virtual const XMLComment*		ToComment() const		{ return 0; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::ToDeclaration	./tinyxml2.h	/^	virtual XMLDeclaration*	ToDeclaration()	{ return 0; }	\/\/\/< Safely cast to a Declaration, or null.$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+tinyxml2::XMLNode::ToDeclaration	./tinyxml2.h	/^	virtual const XMLDeclaration*	ToDeclaration() const	{ return 0; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::ToDocument	./tinyxml2.h	/^	virtual XMLDocument*	ToDocument()	{ return 0; }	\/\/\/< Safely cast to a Document, or null.$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+tinyxml2::XMLNode::ToDocument	./tinyxml2.h	/^	virtual const XMLDocument*		ToDocument() const		{ return 0; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::ToElement	./tinyxml2.h	/^	virtual XMLElement*		ToElement()		{ return 0; }	\/\/\/< Safely cast to an Element, or null.$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+tinyxml2::XMLNode::ToElement	./tinyxml2.h	/^	virtual const XMLElement*		ToElement() const		{ return 0; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::ToText	./tinyxml2.h	/^	virtual XMLText*		ToText()		{ return 0; }	\/\/\/< Safely cast to Text, or null.$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+tinyxml2::XMLNode::ToText	./tinyxml2.h	/^	virtual const XMLText*			ToText() const			{ return 0; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::ToUnknown	./tinyxml2.h	/^	virtual XMLUnknown*		ToUnknown()		{ return 0; }	\/\/\/< Safely cast to an Unknown, or null.$/;"	f	class:tinyxml2::XMLNode	access:public	signature:()
+tinyxml2::XMLNode::ToUnknown	./tinyxml2.h	/^	virtual const XMLUnknown*		ToUnknown() const		{ return 0; }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::Unlink	./tinyxml2.h	/^	void Unlink( XMLNode* child );$/;"	p	class:tinyxml2::XMLNode	access:private	signature:( XMLNode* child )
+tinyxml2::XMLNode::Value	./tinyxml2.h	/^	const char* Value() const			{ return value.GetStr(); }$/;"	f	class:tinyxml2::XMLNode	access:public	signature:() const
+tinyxml2::XMLNode::XMLNode	./tinyxml2.h	/^	XMLNode( XMLDocument* );$/;"	p	class:tinyxml2::XMLNode	access:protected	signature:( XMLDocument* )
+tinyxml2::XMLNode::XMLNode	./tinyxml2.h	/^	XMLNode( const XMLNode& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLNode	access:protected	signature:( const XMLNode& )
+tinyxml2::XMLNode::document	./tinyxml2.h	/^	XMLDocument*	document;$/;"	m	class:tinyxml2::XMLNode	access:protected
+tinyxml2::XMLNode::firstChild	./tinyxml2.h	/^	XMLNode*		firstChild;$/;"	m	class:tinyxml2::XMLNode	access:protected
+tinyxml2::XMLNode::lastChild	./tinyxml2.h	/^	XMLNode*		lastChild;$/;"	m	class:tinyxml2::XMLNode	access:protected
+tinyxml2::XMLNode::memPool	./tinyxml2.h	/^	MemPool*		memPool;$/;"	m	class:tinyxml2::XMLNode	access:private
+tinyxml2::XMLNode::next	./tinyxml2.h	/^	XMLNode*		next;$/;"	m	class:tinyxml2::XMLNode	access:protected
+tinyxml2::XMLNode::operator =	./tinyxml2.h	/^	void operator=( const XMLNode& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLNode	access:protected	signature:( const XMLNode& )
+tinyxml2::XMLNode::parent	./tinyxml2.h	/^	XMLNode*		parent;$/;"	m	class:tinyxml2::XMLNode	access:protected
+tinyxml2::XMLNode::prev	./tinyxml2.h	/^	XMLNode*		prev;$/;"	m	class:tinyxml2::XMLNode	access:protected
+tinyxml2::XMLNode::value	./tinyxml2.h	/^	mutable StrPair	value;$/;"	m	class:tinyxml2::XMLNode	access:protected
+tinyxml2::XMLNode::~XMLNode	./tinyxml2.h	/^	virtual ~XMLNode();$/;"	p	class:tinyxml2::XMLNode	access:protected	signature:()
+tinyxml2::XMLPrinter	./tinyxml2.h	/^class XMLPrinter : public XMLVisitor$/;"	c	namespace:tinyxml2	inherits:XMLVisitor
+tinyxml2::XMLPrinter::BUF_SIZE	./tinyxml2.h	/^		BUF_SIZE = 200$/;"	e	enum:tinyxml2::XMLPrinter::__anon7
+tinyxml2::XMLPrinter::CStr	./tinyxml2.h	/^	const char* CStr() const { return buffer.Mem(); }$/;"	f	class:tinyxml2::XMLPrinter	access:public	signature:() const
+tinyxml2::XMLPrinter::CloseElement	./tinyxml2.h	/^	void CloseElement();$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:()
+tinyxml2::XMLPrinter::ENTITY_RANGE	./tinyxml2.h	/^		ENTITY_RANGE = 64,$/;"	e	enum:tinyxml2::XMLPrinter::__anon7
+tinyxml2::XMLPrinter::OpenElement	./tinyxml2.h	/^	void OpenElement( const char* name );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* name )
+tinyxml2::XMLPrinter::Print	./tinyxml2.h	/^	void Print( const char* format, ... );$/;"	p	class:tinyxml2::XMLPrinter	access:private	signature:( const char* format, ... )
+tinyxml2::XMLPrinter::PrintSpace	./tinyxml2.h	/^	void PrintSpace( int depth );$/;"	p	class:tinyxml2::XMLPrinter	access:private	signature:( int depth )
+tinyxml2::XMLPrinter::PrintString	./tinyxml2.h	/^	void PrintString( const char*, bool restrictedEntitySet );	\/\/ prints out, after detecting entities.$/;"	p	class:tinyxml2::XMLPrinter	access:private	signature:( const char*, bool restrictedEntitySet )
+tinyxml2::XMLPrinter::PushAttribute	./tinyxml2.h	/^	void PushAttribute( const char* name, bool value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* name, bool value )
+tinyxml2::XMLPrinter::PushAttribute	./tinyxml2.h	/^	void PushAttribute( const char* name, const char* value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* name, const char* value )
+tinyxml2::XMLPrinter::PushAttribute	./tinyxml2.h	/^	void PushAttribute( const char* name, double value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* name, double value )
+tinyxml2::XMLPrinter::PushAttribute	./tinyxml2.h	/^	void PushAttribute( const char* name, int value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* name, int value )
+tinyxml2::XMLPrinter::PushAttribute	./tinyxml2.h	/^	void PushAttribute( const char* name, unsigned value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* name, unsigned value )
+tinyxml2::XMLPrinter::PushComment	./tinyxml2.h	/^	void PushComment( const char* comment );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* comment )
+tinyxml2::XMLPrinter::PushDeclaration	./tinyxml2.h	/^	void PushDeclaration( const char* value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* value )
+tinyxml2::XMLPrinter::PushHeader	./tinyxml2.h	/^	void PushHeader( bool writeBOM, bool writeDeclaration );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( bool writeBOM, bool writeDeclaration )
+tinyxml2::XMLPrinter::PushText	./tinyxml2.h	/^	void PushText( const char* text, bool cdata=false );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* text, bool cdata=false )
+tinyxml2::XMLPrinter::PushUnknown	./tinyxml2.h	/^	void PushUnknown( const char* value );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const char* value )
+tinyxml2::XMLPrinter::SealElement	./tinyxml2.h	/^	void SealElement();$/;"	p	class:tinyxml2::XMLPrinter	access:private	signature:()
+tinyxml2::XMLPrinter::Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLComment& comment );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLComment& comment )
+tinyxml2::XMLPrinter::Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLDeclaration& declaration );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLDeclaration& declaration )
+tinyxml2::XMLPrinter::Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLText& text );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLText& text )
+tinyxml2::XMLPrinter::Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLUnknown& unknown );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLUnknown& unknown )
+tinyxml2::XMLPrinter::VisitEnter	./tinyxml2.h	/^	virtual bool VisitEnter( const XMLDocument& \/*doc*\/ );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLDocument& )
+tinyxml2::XMLPrinter::VisitEnter	./tinyxml2.h	/^	virtual bool VisitEnter( const XMLElement& element, const XMLAttribute* attribute );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLElement& element, const XMLAttribute* attribute )
+tinyxml2::XMLPrinter::VisitExit	./tinyxml2.h	/^	virtual bool VisitExit( const XMLDocument& \/*doc*\/ )			{ return true; }$/;"	f	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLDocument& )
+tinyxml2::XMLPrinter::VisitExit	./tinyxml2.h	/^	virtual bool VisitExit( const XMLElement& element );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( const XMLElement& element )
+tinyxml2::XMLPrinter::XMLPrinter	./tinyxml2.h	/^	XMLPrinter( FILE* file=0 );$/;"	p	class:tinyxml2::XMLPrinter	access:public	signature:( FILE* file=0 )
+tinyxml2::XMLPrinter::accumulator	./tinyxml2.h	/^	DynArray< char, 20 > buffer, accumulator;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+tinyxml2::XMLPrinter::buffer	./tinyxml2.h	/^	DynArray< char, 20 > buffer, accumulator;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+tinyxml2::XMLPrinter::depth	./tinyxml2.h	/^	int depth;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+tinyxml2::XMLPrinter::elementJustOpened	./tinyxml2.h	/^	bool elementJustOpened;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+tinyxml2::XMLPrinter::entityFlag	./tinyxml2.h	/^	bool entityFlag[ENTITY_RANGE];$/;"	m	class:tinyxml2::XMLPrinter	access:private
+tinyxml2::XMLPrinter::firstElement	./tinyxml2.h	/^	bool firstElement;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+tinyxml2::XMLPrinter::fp	./tinyxml2.h	/^	FILE* fp;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+tinyxml2::XMLPrinter::processEntities	./tinyxml2.h	/^	bool processEntities;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+tinyxml2::XMLPrinter::restrictedEntityFlag	./tinyxml2.h	/^	bool restrictedEntityFlag[ENTITY_RANGE];$/;"	m	class:tinyxml2::XMLPrinter	access:private
+tinyxml2::XMLPrinter::stack	./tinyxml2.h	/^	DynArray< const char*, 10 > stack;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+tinyxml2::XMLPrinter::textDepth	./tinyxml2.h	/^	int textDepth;$/;"	m	class:tinyxml2::XMLPrinter	access:private
+tinyxml2::XMLPrinter::~XMLPrinter	./tinyxml2.h	/^	~XMLPrinter()	{}$/;"	f	class:tinyxml2::XMLPrinter	access:public	signature:()
+tinyxml2::XMLText	./tinyxml2.h	/^class XMLText : public XMLNode$/;"	c	namespace:tinyxml2	inherits:XMLNode
+tinyxml2::XMLText::Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLText	access:public	signature:( XMLVisitor* visitor ) const
+tinyxml2::XMLText::CData	./tinyxml2.h	/^	bool CData() const						{ return isCData; }$/;"	f	class:tinyxml2::XMLText	access:public	signature:() const
+tinyxml2::XMLText::ParseDeep	./tinyxml2.h	/^	char* ParseDeep( char*, StrPair* endTag );$/;"	p	class:tinyxml2::XMLText	access:public	signature:( char*, StrPair* endTag )
+tinyxml2::XMLText::SetCData	./tinyxml2.h	/^	void SetCData( bool _isCData )			{ this->isCData = _isCData; }$/;"	f	class:tinyxml2::XMLText	access:public	signature:( bool _isCData )
+tinyxml2::XMLText::ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* document ) const;$/;"	p	class:tinyxml2::XMLText	access:public	signature:( XMLDocument* document ) const
+tinyxml2::XMLText::ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* compare ) const;$/;"	p	class:tinyxml2::XMLText	access:public	signature:( const XMLNode* compare ) const
+tinyxml2::XMLText::ToText	./tinyxml2.h	/^	virtual XMLText*	ToText()			{ return this; }$/;"	f	class:tinyxml2::XMLText	access:public	signature:()
+tinyxml2::XMLText::ToText	./tinyxml2.h	/^	virtual const XMLText*	ToText() const	{ return this; }$/;"	f	class:tinyxml2::XMLText	access:public	signature:() const
+tinyxml2::XMLText::XMLText	./tinyxml2.h	/^	XMLText( XMLDocument* doc )	: XMLNode( doc ), isCData( false )	{}$/;"	f	class:tinyxml2::XMLText	access:protected	signature:( XMLDocument* doc )
+tinyxml2::XMLText::XMLText	./tinyxml2.h	/^	XMLText( const XMLText& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLText	access:protected	signature:( const XMLText& )
+tinyxml2::XMLText::isCData	./tinyxml2.h	/^	bool isCData;$/;"	m	class:tinyxml2::XMLText	access:private
+tinyxml2::XMLText::operator =	./tinyxml2.h	/^	void operator=( const XMLText& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLText	access:protected	signature:( const XMLText& )
+tinyxml2::XMLText::~XMLText	./tinyxml2.h	/^	virtual ~XMLText()												{}$/;"	f	class:tinyxml2::XMLText	access:protected	signature:()
+tinyxml2::XMLUnknown	./tinyxml2.h	/^class XMLUnknown : public XMLNode$/;"	c	namespace:tinyxml2	inherits:XMLNode
+tinyxml2::XMLUnknown::Accept	./tinyxml2.h	/^	virtual bool Accept( XMLVisitor* visitor ) const;$/;"	p	class:tinyxml2::XMLUnknown	access:public	signature:( XMLVisitor* visitor ) const
+tinyxml2::XMLUnknown::ParseDeep	./tinyxml2.h	/^	char* ParseDeep( char*, StrPair* endTag );$/;"	p	class:tinyxml2::XMLUnknown	access:public	signature:( char*, StrPair* endTag )
+tinyxml2::XMLUnknown::ShallowClone	./tinyxml2.h	/^	virtual XMLNode* ShallowClone( XMLDocument* document ) const;$/;"	p	class:tinyxml2::XMLUnknown	access:public	signature:( XMLDocument* document ) const
+tinyxml2::XMLUnknown::ShallowEqual	./tinyxml2.h	/^	virtual bool ShallowEqual( const XMLNode* compare ) const;$/;"	p	class:tinyxml2::XMLUnknown	access:public	signature:( const XMLNode* compare ) const
+tinyxml2::XMLUnknown::ToUnknown	./tinyxml2.h	/^	virtual XMLUnknown*	ToUnknown()					{ return this; }$/;"	f	class:tinyxml2::XMLUnknown	access:public	signature:()
+tinyxml2::XMLUnknown::ToUnknown	./tinyxml2.h	/^	virtual const XMLUnknown* ToUnknown() const		{ return this; }$/;"	f	class:tinyxml2::XMLUnknown	access:public	signature:() const
+tinyxml2::XMLUnknown::XMLUnknown	./tinyxml2.h	/^	XMLUnknown( XMLDocument* doc );$/;"	p	class:tinyxml2::XMLUnknown	access:protected	signature:( XMLDocument* doc )
+tinyxml2::XMLUnknown::XMLUnknown	./tinyxml2.h	/^	XMLUnknown( const XMLUnknown& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLUnknown	access:protected	signature:( const XMLUnknown& )
+tinyxml2::XMLUnknown::operator =	./tinyxml2.h	/^	void operator=( const XMLUnknown& );	\/\/ not supported$/;"	p	class:tinyxml2::XMLUnknown	access:protected	signature:( const XMLUnknown& )
+tinyxml2::XMLUnknown::~XMLUnknown	./tinyxml2.h	/^	virtual ~XMLUnknown();$/;"	p	class:tinyxml2::XMLUnknown	access:protected	signature:()
+tinyxml2::XMLUtil	./tinyxml2.h	/^class XMLUtil$/;"	c	namespace:tinyxml2
+tinyxml2::XMLUtil::ConvertUTF32ToUTF8	./tinyxml2.h	/^	static void ConvertUTF32ToUTF8( unsigned long input, char* output, int* length );$/;"	p	class:tinyxml2::XMLUtil	access:public	signature:( unsigned long input, char* output, int* length )
+tinyxml2::XMLUtil::GetCharacterRef	./tinyxml2.h	/^	static const char* GetCharacterRef( const char* p, char* value, int* length );$/;"	p	class:tinyxml2::XMLUtil	access:public	signature:( const char* p, char* value, int* length )
+tinyxml2::XMLUtil::IsAlpha	./tinyxml2.h	/^	inline static int IsAlpha( unsigned char anyByte )		{ return ( anyByte < 128 ) ? isalpha( anyByte ) : 1; }$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( unsigned char anyByte )
+tinyxml2::XMLUtil::IsAlphaNum	./tinyxml2.h	/^	inline static int IsAlphaNum( unsigned char anyByte )	{ return ( anyByte < 128 ) ? isalnum( anyByte ) : 1; }$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( unsigned char anyByte )
+tinyxml2::XMLUtil::IsUTF8Continuation	./tinyxml2.h	/^	inline static int IsUTF8Continuation( const char p ) { return p & 0x80; }$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( const char p )
+tinyxml2::XMLUtil::ReadBOM	./tinyxml2.h	/^	static const char* ReadBOM( const char* p, bool* hasBOM );$/;"	p	class:tinyxml2::XMLUtil	access:public	signature:( const char* p, bool* hasBOM )
+tinyxml2::XMLUtil::SkipWhiteSpace	./tinyxml2.h	/^	static char* SkipWhiteSpace( char* p )				{ while( !IsUTF8Continuation(*p) && isspace( *p ) ) { ++p; } return p; }$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( char* p )
+tinyxml2::XMLUtil::SkipWhiteSpace	./tinyxml2.h	/^	static const char* SkipWhiteSpace( const char* p )	{ while( !IsUTF8Continuation(*p) && isspace( *p ) ) { ++p; } return p; }$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( const char* p )
+tinyxml2::XMLUtil::StringEqual	./tinyxml2.h	/^	inline static bool StringEqual( const char* p, const char* q, int nChar=INT_MAX )  {$/;"	f	class:tinyxml2::XMLUtil	access:public	signature:( const char* p, const char* q, int nChar=INT_MAX )
+tinyxml2::XMLVisitor	./tinyxml2.h	/^class XMLVisitor$/;"	c	namespace:tinyxml2
+tinyxml2::XMLVisitor::Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLComment& \/*comment*\/ )				{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLComment& )
+tinyxml2::XMLVisitor::Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLDeclaration& \/*declaration*\/ )		{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLDeclaration& )
+tinyxml2::XMLVisitor::Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLText& \/*text*\/ )					{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLText& )
+tinyxml2::XMLVisitor::Visit	./tinyxml2.h	/^	virtual bool Visit( const XMLUnknown& \/*unknown*\/ )				{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLUnknown& )
+tinyxml2::XMLVisitor::VisitEnter	./tinyxml2.h	/^	virtual bool VisitEnter( const XMLDocument& \/*doc*\/ )			{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLDocument& )
+tinyxml2::XMLVisitor::VisitEnter	./tinyxml2.h	/^	virtual bool VisitEnter( const XMLElement& \/*element*\/, const XMLAttribute* \/*firstAttribute*\/ )	{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLElement& , const XMLAttribute* )
+tinyxml2::XMLVisitor::VisitExit	./tinyxml2.h	/^	virtual bool VisitExit( const XMLDocument& \/*doc*\/ )			{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLDocument& )
+tinyxml2::XMLVisitor::VisitExit	./tinyxml2.h	/^	virtual bool VisitExit( const XMLElement& \/*element*\/ )			{ return true; }$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:( const XMLElement& )
+tinyxml2::XMLVisitor::~XMLVisitor	./tinyxml2.h	/^	virtual ~XMLVisitor() {}$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:()
+tinyxml2::XML_ERROR_ELEMENT_MISMATCH	./tinyxml2.h	/^	XML_ERROR_ELEMENT_MISMATCH,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_ERROR_EMPTY_DOCUMENT	./tinyxml2.h	/^	XML_ERROR_EMPTY_DOCUMENT,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_ERROR_FILE_COULD_NOT_BE_OPENED	./tinyxml2.h	/^	XML_ERROR_FILE_COULD_NOT_BE_OPENED,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_ERROR_FILE_NOT_FOUND	./tinyxml2.h	/^	XML_ERROR_FILE_NOT_FOUND,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_ERROR_IDENTIFYING_TAG	./tinyxml2.h	/^	XML_ERROR_IDENTIFYING_TAG,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_ERROR_MISMATCHED_ELEMENT	./tinyxml2.h	/^	XML_ERROR_MISMATCHED_ELEMENT,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_ERROR_PARSING	./tinyxml2.h	/^	XML_ERROR_PARSING$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_ERROR_PARSING_ATTRIBUTE	./tinyxml2.h	/^	XML_ERROR_PARSING_ATTRIBUTE,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_ERROR_PARSING_CDATA	./tinyxml2.h	/^	XML_ERROR_PARSING_CDATA,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_ERROR_PARSING_COMMENT	./tinyxml2.h	/^	XML_ERROR_PARSING_COMMENT,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_ERROR_PARSING_DECLARATION	./tinyxml2.h	/^	XML_ERROR_PARSING_DECLARATION,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_ERROR_PARSING_ELEMENT	./tinyxml2.h	/^	XML_ERROR_PARSING_ELEMENT,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_ERROR_PARSING_TEXT	./tinyxml2.h	/^	XML_ERROR_PARSING_TEXT,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_ERROR_PARSING_UNKNOWN	./tinyxml2.h	/^	XML_ERROR_PARSING_UNKNOWN,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_NO_ATTRIBUTE	./tinyxml2.h	/^	XML_NO_ATTRIBUTE,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_NO_ERROR	./tinyxml2.h	/^	XML_NO_ERROR = 0,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_SUCCESS	./tinyxml2.h	/^	XML_SUCCESS = 0,$/;"	e	enum:tinyxml2::__anon4
+tinyxml2::XML_WRONG_ATTRIBUTE_TYPE	./tinyxml2.h	/^	XML_WRONG_ATTRIBUTE_TYPE,$/;"	e	enum:tinyxml2::__anon4
+tweetData	./ATwit.h	/^struct tweetData$/;"	s
+tweetData::Time	./ATwit.h	/^	string Time; $/;"	m	struct:tweetData	access:public
+tweetData::Tweet	./ATwit.h	/^	string Tweet; $/;"	m	struct:tweetData	access:public
+tweetData::UserName	./ATwit.h	/^	string UserName; $/;"	m	struct:tweetData	access:public
+tweetsRetrived	./ATwit.h	/^		vector <tweetData> tweetsRetrived; $/;"	m	class:ATwit	access:private
+userData	./ATwit.h	/^		tinyxml2::XMLDocument userData;$/;"	m	class:ATwit	access:private
+value	./tinyxml2.cc	/^	char value;$/;"	m	struct:Entity	file:	access:public
+value	./tinyxml2.h	/^	mutable StrPair	value;$/;"	m	class:tinyxml2::XMLNode	access:protected
+value	./tinyxml2.h	/^	mutable StrPair value;$/;"	m	class:tinyxml2::XMLAttribute	access:private
+writeBOM	./tinyxml2.h	/^	bool writeBOM;$/;"	m	class:tinyxml2::XMLDocument	access:private
+writer	./ATwit.cc	/^int ATwit::writer(char *data, size_t size, size_t nmemb,std::string *buffer)  $/;"	f	class:ATwit	signature:(char *data, size_t size, size_t nmemb,std::string *buffer)
+writer	./ATwit.h	/^		static int writer(char *data, size_t size, size_t nmemb,std::string *buffer);   $/;"	p	class:ATwit	access:public	signature:(char *data, size_t size, size_t nmemb,std::string *buffer)
+~DynArray	./tinyxml2.h	/^	~DynArray()$/;"	f	class:tinyxml2::DynArray	access:public	signature:()
+~MemPool	./tinyxml2.h	/^	virtual ~MemPool() {}$/;"	f	class:tinyxml2::MemPool	access:public	signature:()
+~MemPoolT	./tinyxml2.h	/^	~MemPoolT() {$/;"	f	class:tinyxml2::MemPoolT	access:public	signature:()
+~StrPair	./tinyxml2.cc	/^StrPair::~StrPair()$/;"	f	class:StrPair	signature:()
+~StrPair	./tinyxml2.h	/^	~StrPair();$/;"	p	class:tinyxml2::StrPair	access:public	signature:()
+~XMLAttribute	./tinyxml2.h	/^	virtual ~XMLAttribute()	{}$/;"	f	class:tinyxml2::XMLAttribute	access:private	signature:()
+~XMLComment	./tinyxml2.cc	/^XMLComment::~XMLComment()$/;"	f	class:XMLComment	signature:()
+~XMLComment	./tinyxml2.h	/^	virtual ~XMLComment();$/;"	p	class:tinyxml2::XMLComment	access:protected	signature:()
+~XMLDeclaration	./tinyxml2.cc	/^XMLDeclaration::~XMLDeclaration()$/;"	f	class:XMLDeclaration	signature:()
+~XMLDeclaration	./tinyxml2.h	/^	virtual ~XMLDeclaration();$/;"	p	class:tinyxml2::XMLDeclaration	access:protected	signature:()
+~XMLDocument	./tinyxml2.cc	/^XMLDocument::~XMLDocument()$/;"	f	class:XMLDocument	signature:()
+~XMLDocument	./tinyxml2.h	/^	~XMLDocument();$/;"	p	class:tinyxml2::XMLDocument	access:public	signature:()
+~XMLElement	./tinyxml2.cc	/^XMLElement::~XMLElement()$/;"	f	class:XMLElement	signature:()
+~XMLElement	./tinyxml2.h	/^	virtual ~XMLElement();$/;"	p	class:tinyxml2::XMLElement	access:private	signature:()
+~XMLNode	./tinyxml2.cc	/^XMLNode::~XMLNode()$/;"	f	class:XMLNode	signature:()
+~XMLNode	./tinyxml2.h	/^	virtual ~XMLNode();$/;"	p	class:tinyxml2::XMLNode	access:protected	signature:()
+~XMLPrinter	./tinyxml2.h	/^	~XMLPrinter()	{}$/;"	f	class:tinyxml2::XMLPrinter	access:public	signature:()
+~XMLText	./tinyxml2.h	/^	virtual ~XMLText()												{}$/;"	f	class:tinyxml2::XMLText	access:protected	signature:()
+~XMLUnknown	./tinyxml2.cc	/^XMLUnknown::~XMLUnknown()$/;"	f	class:XMLUnknown	signature:()
+~XMLUnknown	./tinyxml2.h	/^	virtual ~XMLUnknown();$/;"	p	class:tinyxml2::XMLUnknown	access:protected	signature:()
+~XMLVisitor	./tinyxml2.h	/^	virtual ~XMLVisitor() {}$/;"	f	class:tinyxml2::XMLVisitor	access:public	signature:()
