@@ -14,7 +14,8 @@ using namespace std;
 int main(int argc, char* argv[])
 {
 	ATwit poop; 
-	string queryUrl = "http://twitter.com/statuses/user_timeline.xml?id="; 
+	string queryUrl = "http://twitter.com/statuses/user_timeline.xml?id=";
+
 	if(argc!= 2)
 	{
 		cout<<"Error valad user name required!\n"<<"Use tweetPeek <username>"<<endl ; 

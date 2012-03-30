@@ -1,6 +1,6 @@
 cc = g++
 compileFlag = $(cc) -Wall -fPIC -c sharedlibProj/*.cc -lcurl
-compileLibFlag = $(cc) -shared -Wl,-soname,libATwit.so.1 -o libATwit.so.1.0   sharedlibProj/*.o
+compileLibFlag = $(cc) -shared -Wl,-soname,libATwit.so.1 -o libATwit.so.1.0   *.o
 compileApp = $(cc) -Wall -I./sharedlibProj/ -L/lib  tweetPeak/main.cpp -lATwit -lcurl -o tweetPeak/TwitPeek
 
 all:linkedlib tweetpeak 
@@ -15,6 +15,9 @@ linkedlib:
 tweetpeak:
 	$(compileApp)
 
-
+clean: 
+	rm -rf sharedlibProj/*.o; 
+	rm -rf tweetPeak/*.o;
+	rm -rf *.o;
 	
 

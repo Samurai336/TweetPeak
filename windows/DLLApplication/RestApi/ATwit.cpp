@@ -28,10 +28,19 @@ void  ATwit::getData(string URL)
 	}
 
 	if (result != CURLE_OK)  
-     {  
+  {  
 		cout << "Error: [" << result << "] - " << errorBuffer;  
         exit(-1);  
-     }  
+  }
+  
+  
+  long fouOhfourCheck; 
+  curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &fouOhfourCheck); 
+  if(fouOhfourCheck == 404)
+  {
+        cout <<"error 404"<<endl; 
+        exit(-1); 
+  }
 }
 
 void ATwit::parseData()
@@ -67,7 +76,7 @@ void ATwit::PrintStatuses()
 
 		for(tweetsItor = tweetsRetrived.end()-1; tweetsItor > tweetsRetrived.begin(); tweetsItor--)
 		{
-			cout<<tweetsItor->UserName<<": "<<tweetsItor->Tweet<<"\n"<<tweetsItor->Time<<endl; 
+			cout<<tweetsItor->UserName<<": "<<tweetsItor->Tweet<<"\n"<<tweetsItor->Time<<endl<<endl; 
 		}
 
 }

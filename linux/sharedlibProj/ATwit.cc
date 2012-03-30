@@ -27,10 +27,20 @@ void  ATwit::getData(string URL)
 	}
 
 	if (result != CURLE_OK)  
-     {  
+  { 
+             
 		cout << "Error: [" << result << "] - " << errorBuffer;  
         exit(-1);  
-     }  
+  }
+  long fouOhfourCheck; 
+  curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &fouOhfourCheck); 
+  if(fouOhfourCheck == 404)
+  {
+        cout <<"error 404"<<endl; 
+        exit(-1); 
+  }
+
+
 }
 
 void ATwit::parseData()
@@ -38,11 +48,13 @@ void ATwit::parseData()
 	tweetsRetrived.clear(); 
 	userData.Parse(theXML.c_str());
 
-	///const char *title;// = userData.FirstChildElement(userData.RootElement()->Name())->FirstChildElement()->Name(); 
+	string title = userData.FirstChildElement(userData.RootElement()->Name())->FirstChildElement()->Name(); 
+  cout<<title<<endl; 
 	tinyxml2::XMLNode *status; 
 	status = userData.FirstChildElement(userData.RootElement()->Name())->FirstChildElement();
   string check = userData.RootElement()->Name();
-  if(check == "hash")
+  cout<<check<<endl; 
+  if((check == "hash") )
   {
     cout<<"No user by that name"<<endl;
     exit(0);
@@ -67,7 +79,7 @@ void ATwit::PrintStatuses()
 
 		for(tweetsItor = tweetsRetrived.end()-1; tweetsItor > tweetsRetrived.begin(); tweetsItor--)
 		{
-			cout<<tweetsItor->UserName<<": "<<tweetsItor->Tweet<<"\n"<<tweetsItor->Time<<endl; 
+			cout<<tweetsItor->UserName<<": "<<tweetsItor->Tweet<<"\n"<<tweetsItor->Time<<endl<<endl; 
 		}
 
 }
