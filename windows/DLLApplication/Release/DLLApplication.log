@@ -1,0 +1,24 @@
+﻿Build started 3/29/2012 4:24:23 PM.
+     1>Project "C:\Projects\COnsole\DLLApplication\DLLApplication.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\DLLApplication.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Projects\COnsole\DLLApplication\Release\DLLApplication.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Projects\libs\cURL\Release\lib ./Release/RestApi.lib libcurl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\DLLApplication.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Projects\COnsole\DLLApplication\Release\DLLApplication.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\COnsole\DLLApplication\Release\DLLApplication.lib" /MACHINE:X86 Release\DLLApplication.res
+         Release\main.obj
+         Generating code
+         Finished generating code
+         DLLApplication.vcxproj -> C:\Projects\COnsole\DLLApplication\Release\DLLApplication.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Projects\COnsole\DLLApplication\Release\DLLApplication.exe;#1" /manifest Release\DLLApplication.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\DLLApplication.unsuccessfulbuild".
+         Touching "Release\DLLApplication.lastbuildstate".
+     1>Done Building Project "C:\Projects\COnsole\DLLApplication\DLLApplication.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.33
